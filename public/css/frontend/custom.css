@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Akkurat Pro';
+    padding-top: 0 !important;
 }
 
 .navbar{
@@ -86,6 +87,10 @@ body{
     height: 200px;
 }
 
+.prime-location-responsive{
+    height: 240px;
+}
+
 .image-general-responsive{
     height: 200px;
 }
@@ -157,7 +162,7 @@ body{
     }
 
     .home-width-responsive{
-        width: 70%;
+        width: 85%;
     }
 
     .h1{
@@ -192,6 +197,10 @@ body{
         height: 200px;
     }
 
+    .prime-location-responsive{
+        height: 300px;
+    }
+
     .location-image-responsive{
         height: 570px;
     }
@@ -221,7 +230,7 @@ body{
 @media (min-width: 992px) {
     .home-banner-responsive{
         height: inherit;
-        min-height: 605px;
+        min-height: 557px;
     }
 
     .feature-main-banner-responsive{
@@ -233,6 +242,10 @@ body{
         min-height: 550px;
     }
 
+    .prime-location-responsive{
+        height: 268px;
+    }
+
     .floor-plan-banner-responsive{
         height: 600px;
     }
@@ -241,7 +254,11 @@ body{
 @media (min-width: 1200px) {
     .home-banner-responsive{
         height: inherit;
-        min-height: 580px;
+        min-height: 557px;
+    }
+
+    .prime-location-responsive{
+        height: 320px;
     }
 
     .feature-main-banner-responsive{

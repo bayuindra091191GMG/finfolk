@@ -21,15 +21,15 @@
 
 <body style="background: #e6e7e8;">
     {{--<div id="preloader"></div>--}}
+    <div class="container-fluid p-0">
+        @include('partials.frontend._header')
+    </div>
 
     <!-- Page Content -->
     <div class="container">
 
-        @include('partials.frontend._header')
-
         @yield('content')
         <!-- Footer #1============================================= -->
-
 
     </div>
     @include('partials.frontend._footer')

@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-4">
+<nav class="navbar navbar-expand-lg navbar-light bg-light p-4 mb-2">
     <div class="container">
         <a class="navbar-brand" href="{{ route('home') }}">
             <img src="{{ asset('images/frontend/logo-transparent.png') }}" class="mb-lg-0 mb-md-0 mb-sm-0 mb-3 logo-responsive" />

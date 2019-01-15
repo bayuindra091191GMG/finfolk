@@ -10,7 +10,7 @@
 
 @section('content')
 
-    <div class="row mb-2 for-mt-10" id="plan-menu">
+    <div class="row mb-2" id="plan-menu">
         <div class="col-lg-4 col-md-4 col-4 pr-1 pl-md-1">
             <div class="card">
                 <div class="card-body bg-custom-black p-2 p-md-3">
@@ -70,7 +70,7 @@
                                     background-size: cover;">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-12 px-md-1">
+                        <div class="col-lg-4 col-md-4 col-12 pl-md-1">
                             <div class="w-100 unit-plan-blueprint-responsive" style="background-image: url('{{ asset('images/frontend/plan-unit/plan-unit-2.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: center;
@@ -95,7 +95,7 @@
                                     background-size: cover;">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-12 px-md-1">
+                        <div class="col-lg-4 col-md-4 col-12 pl-md-1">
                             <div class="w-100 unit-plan-blueprint-responsive" style="background-image: url('{{ asset('images/frontend/plan-unit/plan-unit-4.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: center;
@@ -120,7 +120,7 @@
                                     background-size: cover;">
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-12 px-md-1">
+                        <div class="col-lg-4 col-md-4 col-12 pl-md-1">
                             <div class="w-100 unit-plan-blueprint-responsive" style="background-image: url('{{ asset('images/frontend/plan-unit/plan-unit-6.jpg') }}');
                                     background-repeat: no-repeat;
                                     background-position: center;

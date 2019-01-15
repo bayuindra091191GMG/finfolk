@@ -30,6 +30,7 @@ Route::get('/features', 'Frontend\HomeController@features')->name('frontend.feat
 Route::get('/contact-us', 'Frontend\HomeController@contactUs')->name('frontend.contact_us');
 Route::post('/contact-us', 'Frontend\HomeController@saveContactUs')->name('frontend.contact_us.save');
 Route::post('/subscribe-submit', 'Admin\SubscribeController@store')->name('frontend.subscribe.save');
+Route::get('/download', 'Frontend\HomeController@downloadNewsletter')->name('frontend.download');
 
 // ADMIN ROUTE
 // ====================================================================================================================
@@ -59,17 +60,6 @@ Route::prefix('admin')->group(function(){
     Route::post('/users/update', 'Admin\UserController@update')->name('admin.users.update');
     Route::post('/users/delete', 'Admin\UserController@destroy')->name('admin.users.destroy');
 
-    // Category
-    Route::get('/categories', 'Admin\CategoryController@index')->name('admin.categories.index');
-    Route::get('/categories/create', 'Admin\CategoryController@create')->name('admin.categories.create');
-    Route::post('/categories/store', 'Admin\CategoryController@store')->name('admin.categories.store');
-    Route::get('/categories/edit/{item}', 'Admin\CategoryController@edit')->name('admin.categories.edit');
-    Route::post('/categories/update', 'Admin\CategoryController@update')->name('admin.categories.update');
-    Route::post('/categories/delete', 'Admin\CategoryController@destroy')->name('admin.categories.destroy');
-
-    // Currency
-    Route::get('/currencies', 'Admin\CurrencyController@index')->name('admin.currencies.index');
-
     // Subscribes
     Route::get('/subscribes', 'Admin\SubscribeController@index')->name('admin.subscribes.index');
     Route::get('/subscribe-downloads', 'Admin\SubscribeController@download')->name('admin.subscribes.download');
@@ -88,26 +78,6 @@ Route::prefix('admin')->group(function(){
     Route::get('/vouchers/edit/{item}', 'Admin\VoucherController@edit')->name('admin.vouchers.edit');
     Route::post('/vouchers/update', 'Admin\VoucherController@update')->name('admin.vouchers.update');
     Route::post('/vouchers/delete', 'Admin\VoucherController@destroy')->name('admin.vouchers.destroy');
-
-    // FAQ
-    Route::get('/faqs', 'Admin\FaqController@index')->name('admin.faqs.index');
-    Route::get('/faqs/create', 'Admin\FaqController@create')->name('admin.faqs.create');
-    Route::post('/faqs/store', 'Admin\FaqController@store')->name('admin.faqs.store');
-    Route::get('/faqs/edit/{item}', 'Admin\FaqController@edit')->name('admin.faqs.edit');
-    Route::post('/faqs/update', 'Admin\FaqController@update')->name('admin.faqs.update');
-    Route::post('/faqs/delete', 'Admin\FaqController@destroy')->name('admin.faqs.destroy');
-
-    // Product
-    Route::get('/product/', 'Admin\ProductController@index')->name('admin.product.index');
-    Route::get('/product/show/{item}', 'Admin\ProductController@show')->name('admin.product.show');
-    Route::get('/product/create', 'Admin\ProductController@create')->name('admin.product.create');
-    Route::post('/product/store', 'Admin\ProductController@store')->name('admin.product.store');
-
-    Route::get('/product/create-customize/{item}', 'Admin\ProductController@createCustomize')->name('admin.product.create.customize');
-    Route::post('/product/store-customize/{item}', 'Admin\ProductController@storeCustomize')->name('admin.product.store.customize');
-    Route::get('/product/edit-customize/{item}', 'Admin\ProductController@editCustomize')->name('admin.product.edit.customize');
-    Route::post('/product/update-customize/{item}', 'Admin\ProductController@updateCustomize')->name('admin.product.update.customize');
-    Route::get('/product/edit/{item}', 'Admin\ProductController@edit')->name('admin.product.edit');
 });
 
 Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');

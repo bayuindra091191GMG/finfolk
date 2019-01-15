@@ -16,21 +16,21 @@
         {{--<a href="#" class="btn btn-primary btn-lg">Call to action!</a>--}}
     {{--</header>--}}
 
-    <div class="row mb-2 for-mt-10">
+    <div class="row mb-2">
         <div class="col-lg-9 col-md-9 col-12 px-md-1">
             <div class="card home-banner-responsive">
-                <div id="slide_1" class="card-body" style="background-image: url('{{ asset('images/frontend/home/home-main-banner.jpg') }}');
+                <div id="slide_1" class="card-body" style="background-image: url('{{ asset('images/frontend/home/banner-1.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
                 </div>
-                <div id="slide_2" class="card-body" style="background-image: url('{{ asset('images/frontend/home/home-video.jpg') }}');
+                <div id="slide_2" class="card-body" style="background-image: url('{{ asset('images/frontend/home/banner-2.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;
                         display: none;">
                 </div>
-                <div id="slide_3" class="card-body" style="background-image: url('{{ asset('images/frontend/home/home-main-banner.jpg') }}');
+                <div id="slide_3" class="card-body" style="background-image: url('{{ asset('images/frontend/home/banner-3.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;
@@ -43,10 +43,11 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <a class="switch-slide" style="text-decoration: none; cursor: pointer;" data-slide="1">
-                            <div class="card-body bg-custom-black text-white">
-                                <span class="h5">Facade Design</span><br/><br/>
+                            <div id="button_1" class="card-body bg-custom-brown text-white">
+                                <span class="h5">Build within</span><br/>
+                                <span class="h5">Collins Boulevard</span><br/>
                                 <hr class="d-inline-flex w-50 border-white"/>
-                                <p>Lorem ipsum dolor sit amet unvalor unum equi</p>
+                                <p>Rise within artsy living place at Serpong</p>
                             </div>
                         </a>
                     </div>
@@ -56,10 +57,11 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <a class="switch-slide" style="text-decoration: none; cursor: pointer;" data-slide="2">
-                            <div class="card-body bg-custom-black text-white">
-                                <span class="h5">Grand Launching</span><br/><br/>
+                            <div id="button_2" class="card-body bg-custom-black text-white">
+                                <span class="h5">The First</span><br/>
+                                <span class="h5">Backyard Parking</span><br/>
                                 <hr class="d-inline-flex w-50 border-white"/>
-                                <p>Lorem ipsum dolor sit amet unvalor unum equi</p>
+                                <p>The first and convienent backyard parking feature</p>
                             </div>
                         </a>
                     </div>
@@ -69,10 +71,10 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
                         <a class="switch-slide" style="text-decoration: none; cursor: pointer;" data-slide="3">
-                            <div class="card-body bg-custom-black text-white">
-                                <span class="h5">New Payment Method</span><br/><br/>
+                            <div id="button_3" class="card-body bg-custom-black text-white">
+                                <span class="h5">Boutique Office</span><br/>
                                 <hr class="d-inline-flex w-50 border-white"/>
-                                <p>Lorem ipsum dolor sit amet unvalor unum equi</p>
+                                <p>One fine attractive Boutique Office</p>
                             </div>
                         </a>
                     </div>
@@ -86,9 +88,10 @@
             <div class="col-4 pr-1">
                 <div class="card">
                     <a class="switch-slide" style="text-decoration: none; cursor: pointer;" data-slide="1">
-                        <div class="card-body bg-custom-black text-white p-2" style="height: 100px;">
+                        <div id="button_mobile_1" class="card-body bg-custom-brown text-white p-2" style="height: 100px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                                <span>Facade Design</span>
+                                <span>Build within</span>
+                                <span>Collins Boulevard</span>
                             </div>
                             {{--<hr class="d-inline-flex w-50 border-white"/>--}}
                             {{--<p>Lorem ipsum dolor sit amet unvalor unum equi</p>--}}
@@ -99,9 +102,10 @@
             <div class="col-4 px-1">
                 <div class="card">
                     <a class="switch-slide" style="text-decoration: none; cursor: pointer;" data-slide="2">
-                        <div class="card-body bg-custom-black text-white" style="height: 100px;">
+                        <div id="button_mobile_2" class="card-body bg-custom-black text-white" style="height: 100px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                                <span>Grand Launching</span>
+                                <span>The First</span>
+                                <span>Backyard Parking</span>
                             </div>
                             {{--<hr class="d-inline-flex w-50 border-white"/>--}}
                             {{--<p>Lorem ipsum dolor sit amet unvalor unum equi</p>--}}
@@ -112,9 +116,9 @@
             <div class="col-4 pl-1">
                 <div class="card">
                     <a class="switch-slide" style="text-decoration: none; cursor: pointer;" data-slide="3">
-                        <div class="card-body bg-custom-black text-white" style="height: 100px;">
+                        <div id="button_mobile_3" class="card-body bg-custom-black text-white" style="height: 100px;">
                             <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                                <span>New Payment Method</span>
+                                <span>Boutique Office</span>
                             </div>
                             {{--<hr class="d-inline-flex w-50 border-white"/>--}}
                             {{--<p>Lorem ipsum dolor sit amet unvalor unum equi</p>--}}
@@ -232,11 +236,10 @@
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-3 col-4 pl-1">
                             <div class="card">
-                                <div class="card-body" style="background-image: url('{{ asset('images/frontend/home/home-3.jpg') }}');
+                                <div class="card-body prime-location-responsive" style="background-image: url('{{ asset('images/frontend/home/home-3.jpg') }}');
                                         background-repeat: no-repeat;
                                         background-position: center;
-                                        background-size: cover;
-                                        height: 300px;">
+                                        background-size: cover;">
                                 </div>
                             </div>
                         </div>
@@ -248,11 +251,17 @@
             <div class="row mb-2">
                 <div class="col-lg-12 col-md-12">
                     <div class="card">
-                        <div class="card-body" style="background-image: url('{{ asset('images/frontend/home/home-video.jpg') }}');
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                background-size: cover;
-                                height: 340px;">
+                        {{--<div class="card-body" style="background-image: url('{{ asset('images/frontend/home/home-video.jpg') }}');--}}
+                                {{--background-repeat: no-repeat;--}}
+                                {{--background-position: center;--}}
+                                {{--background-size: cover;--}}
+                                {{--height: 340px;">--}}
+                        {{--</div>--}}
+                        <div class="card-body">
+                            <div class="videoWrapper">
+                                <!-- Copy & Pasted from YouTube -->
+                                <iframe width="560" height="349" src="https://www.youtube.com/embed/7Zy6bjt6T1s" frameborder="0" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -263,10 +272,10 @@
                         <div class="col-lg-8 col-md-8 col-sm-8 col-8 pr-1">
                             <div class="card">
                                 <div class="card-body">
-                                    <h5>Ground Breaking Video</h5>
-                                    <h5>12.12.2018</h5>
+                                    <h5>Collins Boulevard</h5>
+                                    <h5>Video</h5>
                                     <hr class="d-inline-flex w-50 border-dark"/>
-                                    <p>Lorem ipsum dolor sit amet unvalor unum equi</p>
+                                    <p>A prestigious artsy approach of residential spaces</p>
                                 </div>
                             </div>
                         </div>
@@ -277,14 +286,14 @@
                                         <span class="h1 text-white">WHY</span><br/>
                                         <span class="h1 text-custom-light-brown">FOR</span>
                                     </div>
-                                    <div class="position-custom-bottom-right bg-custom-brown p-1 text-center text-white home-width-responsive">
+                                    <div class="position-custom-bottom-right bg-custom-brown p-2 text-center text-white w-100">
                                         <div class="row">
-                                            <div class="col-lg-8 col-md-8 col-12">
+                                            <div class="col-lg-7 col-md-6 col-12 px-1">
                                                 <span class="d-none d-sm-block"><b>Find Out</b></span>
                                             </div>
-                                            <div class="col-lg-4 col-md-4 col-12">
+                                            <div class="col-lg-5 col-md-6 col-12 pr-1">
                                                 <a href="{{ route('frontend.introduction') }}">
-                                                    <img src="{{ asset('images/frontend/arrow.png') }}" height="25"/>
+                                                    <img src="{{ asset('images/frontend/arrow.png') }}" height="30"/>
                                                 </a>
                                             </div>
                                         </div>
@@ -300,6 +309,24 @@
     <!-- /.row -->
 @endsection
 
+@section('styles')
+    <style>
+        .videoWrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            padding-top: 25px;
+            height: 0;
+        }
+        .videoWrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+@endsection
+
 @section('scripts')
     <script>
         $(document).on("click", '.switch-slide', function (e){
@@ -309,6 +336,15 @@
             $('#slide_2').hide();
             $('#slide_3').hide();
 
+            $('#button_1').css('background', '#393939');
+            $('#button_2').css('background', '#393939');
+            $('#button_3').css('background', '#393939');
+            $('#button_mobile_1').css('background', '#393939');
+            $('#button_mobile_2').css('background', '#393939');
+            $('#button_mobile_3').css('background', '#393939');
+
+            $('#button_' + slideIdx).css('background', '#654234');
+            $('#button_mobile_' + slideIdx).css('background', '#654234');
             $('#slide_' + slideIdx).show(500);
         });
     </script>

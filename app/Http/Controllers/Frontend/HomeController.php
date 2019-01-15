@@ -73,4 +73,8 @@ class HomeController extends Controller
         Session::flash('success', 'Thank you for Contacting us!');
         return redirect()->route('frontend.contactUs');
     }
+
+    public function downloadNewsletter(){
+        return response()->download(public_path('newsletter.pdf'));
+    }
 }

@@ -10,7 +10,7 @@
 
 @section('content')
 
-    <div class="row mb-2 for-mt-10">
+    <div class="row mb-2">
         <div class="col-lg-12 col-md-12 px-md-1 text-center">
             <h1 class="text-custom-style text-custom-light-brown display-2">FEATURES</h1>
         </div>
@@ -114,7 +114,7 @@
     <div class="row mb-2">
         <div class="col-lg-4 col-md-4 col-4 pr-1 pl-md-1">
             <div class="card">
-                <div class="card-body feature-image-responsive" style="background-image: url('{{ asset('images/frontend/features/features-2.jpg') }}');
+                <div class="card-body feature-image-responsive" style="background-image: url('{{ asset('images/frontend/features/features-7.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
@@ -123,7 +123,7 @@
         </div>
         <div class="col-lg-4 col-md-4 col-4 px-1">
             <div class="card">
-                <div class="card-body feature-image-responsive" style="background-image: url('{{ asset('images/frontend/features/features-7.jpg') }}');
+                <div class="card-body feature-image-responsive" style="background-image: url('{{ asset('images/frontend/features/features-8.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
@@ -132,7 +132,7 @@
         </div>
         <div class="col-lg-4 col-md-4 col-4 pl-1 pr-md-1">
             <div class="card">
-                <div class="card-body feature-image-responsive" style="background-image: url('{{ asset('images/frontend/features/features-8.jpg') }}');
+                <div class="card-body feature-image-responsive" style="background-image: url('{{ asset('images/frontend/features/features-9.jpg') }}');
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;">
