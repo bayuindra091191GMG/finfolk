@@ -318,36 +318,53 @@
       
         <!-- Modal content-->
         <div class="modal-content justify-content-center text-center" style="background-color: #282e3a;">
-          {{-- <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title" id="exampleModalCenterTitle"></h4>
-          </div> --}}
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" id="exampleModalCenterTitle"></h4>
+            </div>
 
             <div class="modal-body" style="height: 500px;">
                     <div class="box h-100 d-flex justify-content-center flex-column text-center">
                         <div id="clockdiv">
-                            <div>
-                            <div style="background-color: #fa5559">
-                                <span class="days text-white"></span>
+{{--                            <div>--}}
+{{--                                <div style="background-color: #fa5559">--}}
+{{--                                    <span class="days text-white"></span>--}}
+{{--                                </div>--}}
+{{--                                <div class="smalltext" style="color:#797f8d">Days</div>--}}
+{{--                            </div>--}}
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-3 col-6">
+                                        <div style="background-color: #f6bc5b">
+                                            <span class="days text-white"></span>
+                                        </div>
+                                        <div class="smalltext" style="color:#797f8d">Days</div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div style="background-color: #fa5559">
+                                            <span class="hours text-white"></span>
+                                        </div>
+                                        <div class="smalltext" style="color:#797f8d">Hours</div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div style="background-color: #2dcb74">
+                                            <span class="minutes text-white"></span>
+                                        </div>
+                                        <div class="smalltext" style="color:#797f8d">Minutes</div>
+                                    </div>
+                                    <div class="col-md-3 col-6">
+                                        <div style="background-color: #f6bc5b">
+                                            <span class="seconds text-white"></span>
+                                        </div>
+                                        <div class="smalltext" style="color:#797f8d">Seconds</div>
+                                    </div>
+                                </div>
                             </div>
-                                <div class="smalltext" style="color:#797f8d">Days</div>
-                            </div>
-                            <div>
-                            <div style="background-color: #2dcb74">
-                                <span class="hours text-white"></span>
-                            </div>
-                                <div class="smalltext" style="color:#797f8d">Hours</div>
-                            </div>
-                            <div>
-                            <div style="background-color: #f6bc5b">
-                                <span class="minutes text-white"></span>
-                            </div>
-                                <div class="smalltext" style="color:#797f8d">Minutes</div>
-                            </div>
-                            {{-- <div>
-                                <span class="seconds"></span>
-                                <div class="smalltext">Seconds</div>
-                            </div> --}}
+
+{{--                            <div>--}}
+{{--                                <span class="seconds"></span>--}}
+{{--                                <div class="smalltext">Seconds</div>--}}
+{{--                            </div>--}}
                         </div>
                     </div>                    
             </div>
@@ -365,41 +382,39 @@
 
 @section('styles')
     <style>
-    	body{
-	text-align: center;
-	background: ;
-    font-family: sans-serif;
-    font-weight: 100;
-}
+    body{
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 100;
+    }
 
+    #clockdiv{
+        font-family: sans-serif;
+        /* color: #fff; */
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 50px;
+    }
 
-#clockdiv{
-	font-family: sans-serif;
-	/* color: #fff; */
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 50px;
-}
+    #clockdiv > div{
+        padding: 10px;
+        border-radius: 3px;
+        /* background: #00BF96; */
+        display: inline-block;
+    }
 
-#clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
-	/* background: #00BF96; */
-	display: inline-block;
-}
+    #clockdiv div > span{
+        padding: 15px;
+        border-radius: 3px;
+        /* background: #00816A; */
+        display: inline-block;
+    }
 
-#clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
-	/* background: #00816A; */
-	display: inline-block;
-}
-
-.smalltext{
-	padding-top: 5px;
-	font-size: 20px;
-}
+    .smalltext{
+        padding-top: 5px;
+        font-size: 20px;
+    }
         .videoWrapper {
             position: relative;
             padding-bottom: 56.25%; /* 16:9 */
@@ -413,35 +428,13 @@
             width: 100%;
             height: 100%;
         }
-
-        .clock-padding{
-            padding: 20 px;
-        }
-
-        @media (min-width: 768px) {
-            .clock-padding{
-                padding-top: 200px;
-                padding-bottom: 200px;
-                padding-left: 99px;
-                padding-right: 99px
-            }
-
-            .clock-box{
-                height:400px;
-                width:800px;
-            }
     </style>
 @endsection
 
 @section('scripts')
 	<script>
         $('#exampleModalCenter').modal('show');
-		$(window).load(function(){        
-        $('#exampleModalCenter').modal('show');
-        });
 
-    </script>
-    <script>
         $(document).on("click", '.switch-slide', function (e){
             var slideIdx = $(this).data('slide');
 
@@ -460,50 +453,49 @@
             $('#button_mobile_' + slideIdx).css('background', '#654234');
             $('#slide_' + slideIdx).show(500);
         });
-    </script>
-    <script>
+
         function getTimeRemaining(endtime) {
-    var t = Date.parse(endtime) - Date.parse(new Date());
-    var seconds = Math.floor((t / 1000) % 60);
-    var minutes = Math.floor((t / 1000 / 60) % 60);
-    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-    var days = Math.floor(t / (1000 * 60 * 60 * 24));
-    return {
-    'total': t,
-    'days': days,
-    'hours': hours,
-    'minutes': minutes,
-    'seconds': seconds
-    };
-}
+            var t = Date.parse(endtime) - Date.parse(new Date());
+            var seconds = Math.floor((t / 1000) % 60);
+            var minutes = Math.floor((t / 1000 / 60) % 60);
+            var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+            var days = Math.floor(t / (1000 * 60 * 60 * 24));
+            return {
+                'total': t,
+                'days': days,
+                'hours': hours,
+                'minutes': minutes,
+                'seconds': seconds
+            };
+        }
 
-function initializeClock(id, endtime) {
-    var clock = document.getElementById(id);
-    var daysSpan = clock.querySelector('.days');
-    var hoursSpan = clock.querySelector('.hours');
-    var minutesSpan = clock.querySelector('.minutes');
-    var secondsSpan = clock.querySelector('.seconds');
+        function initializeClock(id, endtime) {
+            var clock = document.getElementById(id);
+            var daysSpan = clock.querySelector('.days');
+            var hoursSpan = clock.querySelector('.hours');
+            var minutesSpan = clock.querySelector('.minutes');
+            var secondsSpan = clock.querySelector('.seconds');
 
-    function updateClock() {
-    var t = getTimeRemaining(endtime);
+            function updateClock() {
+            var t = getTimeRemaining(endtime);
 
-    daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+            daysSpan.innerHTML = t.days;
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-3);
+            minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+            secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
-    if (t.total <= 0) {
-        clearInterval(timeinterval);
-    }
-}
+            if (t.total <= 0) {
+                clearInterval(timeinterval);
+            }
+        }
 
-    updateClock();
-    var timeinterval = setInterval(updateClock, 1000);
-}
+            updateClock();
+            var timeinterval = setInterval(updateClock, 1000);
+        }
 
-//var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-var deadline = new Date(2019,3,27);
-//alert(deadline);
-initializeClock('clockdiv', deadline);
-</script>
+        //var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+        var deadline = new Date(2019,3,27);
+        //alert(deadline);
+        initializeClock('clockdiv', deadline);
+    </script>
 @endsection
