@@ -20,6 +20,38 @@
         {{-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> --}}
       
         <!-- Modal -->
+    <div id="clockdiv" class="row mb-3 mt-3">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-12 bg-custom-black">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div style="background-color: #f6bc5b">
+                        <span class="days text-white"></span>
+                    </div>
+                    <div class="smalltext" style="color:#797f8d">Days</div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div style="background-color: #fa5559">
+                        <span class="hours text-white"></span>
+                    </div>
+                    <div class="smalltext" style="color:#797f8d">Hours</div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div style="background-color: #2dcb74">
+                        <span class="minutes text-white"></span>
+                    </div>
+                    <div class="smalltext" style="color:#797f8d">Minutes</div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div style="background-color: purple;">
+                        <span class="seconds text-white"></span>
+                    </div>
+                    <div class="smalltext" style="color:#797f8d">Seconds</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
         
     <div class="row mb-2">
         <div class="col-lg-9 col-md-9 col-12 px-md-1">
@@ -324,51 +356,39 @@
             </div>
 
             <div class="modal-body" style="height: 500px;">
-                    <div class="box h-100 d-flex justify-content-center flex-column text-center">
-                        <div id="clockdiv">
-{{--                            <div>--}}
-{{--                                <div style="background-color: #fa5559">--}}
-{{--                                    <span class="days text-white"></span>--}}
+{{--                <div class="box h-100 d-flex justify-content-center flex-column text-center">--}}
+{{--                    <div id="clockdiv">--}}
+{{--                        <div class="container-fluid">--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="col-md-3 col-6">--}}
+{{--                                    <div style="background-color: #f6bc5b">--}}
+{{--                                        <span class="days text-white"></span>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="smalltext" style="color:#797f8d">Days</div>--}}
 {{--                                </div>--}}
-{{--                                <div class="smalltext" style="color:#797f8d">Days</div>--}}
+{{--                                <div class="col-md-3 col-6">--}}
+{{--                                    <div style="background-color: #fa5559">--}}
+{{--                                        <span class="hours text-white"></span>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="smalltext" style="color:#797f8d">Hours</div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-md-3 col-6">--}}
+{{--                                    <div style="background-color: #2dcb74">--}}
+{{--                                        <span class="minutes text-white"></span>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="smalltext" style="color:#797f8d">Minutes</div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-md-3 col-6">--}}
+{{--                                    <div style="background-color: #f6bc5b">--}}
+{{--                                        <span class="seconds text-white"></span>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="smalltext" style="color:#797f8d">Seconds</div>--}}
+{{--                                </div>--}}
 {{--                            </div>--}}
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-md-3 col-6">
-                                        <div style="background-color: #f6bc5b">
-                                            <span class="days text-white"></span>
-                                        </div>
-                                        <div class="smalltext" style="color:#797f8d">Days</div>
-                                    </div>
-                                    <div class="col-md-3 col-6">
-                                        <div style="background-color: #fa5559">
-                                            <span class="hours text-white"></span>
-                                        </div>
-                                        <div class="smalltext" style="color:#797f8d">Hours</div>
-                                    </div>
-                                    <div class="col-md-3 col-6">
-                                        <div style="background-color: #2dcb74">
-                                            <span class="minutes text-white"></span>
-                                        </div>
-                                        <div class="smalltext" style="color:#797f8d">Minutes</div>
-                                    </div>
-                                    <div class="col-md-3 col-6">
-                                        <div style="background-color: #f6bc5b">
-                                            <span class="seconds text-white"></span>
-                                        </div>
-                                        <div class="smalltext" style="color:#797f8d">Seconds</div>
-                                    </div>
-                                </div>
-                            </div>
-
-{{--                            <div>--}}
-{{--                                <span class="seconds"></span>--}}
-{{--                                <div class="smalltext">Seconds</div>--}}
-{{--                            </div>--}}
-                        </div>
-                    </div>                    
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
-            
           
           {{-- <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -382,39 +402,40 @@
 
 @section('styles')
     <style>
-    body{
-        text-align: center;
-        font-family: sans-serif;
-        font-weight: 100;
-    }
+        body{
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: 100;
+        }
 
-    #clockdiv{
-        font-family: sans-serif;
-        /* color: #fff; */
-        display: inline-block;
-        font-weight: 100;
-        text-align: center;
-        font-size: 50px;
-    }
+        #clockdiv{
+            font-family: sans-serif;
+            /* color: #fff; */
+            /*display: inline-block;*/
+            font-weight: 100;
+            text-align: center;
+            font-size: 50px;
+        }
 
-    #clockdiv > div{
-        padding: 10px;
-        border-radius: 3px;
-        /* background: #00BF96; */
-        display: inline-block;
-    }
+        #clockdiv > div{
+            padding: 10px;
+            border-radius: 3px;
+            /* background: #00BF96; */
+            display: inline-block;
+        }
 
-    #clockdiv div > span{
-        padding: 15px;
-        border-radius: 3px;
-        /* background: #00816A; */
-        display: inline-block;
-    }
+        #clockdiv div > span{
+            padding: 15px;
+            border-radius: 3px;
+            /* background: #00816A; */
+            display: inline-block;
+        }
 
-    .smalltext{
-        padding-top: 5px;
-        font-size: 20px;
-    }
+        .smalltext{
+            padding-top: 5px;
+            font-size: 20px;
+        }
+
         .videoWrapper {
             position: relative;
             padding-bottom: 56.25%; /* 16:9 */
@@ -433,7 +454,7 @@
 
 @section('scripts')
 	<script>
-        $('#exampleModalCenter').modal('show');
+        //$('#exampleModalCenter').modal('show');
 
         $(document).on("click", '.switch-slide', function (e){
             var slideIdx = $(this).data('slide');
@@ -480,7 +501,7 @@
             var t = getTimeRemaining(endtime);
 
             daysSpan.innerHTML = t.days;
-            hoursSpan.innerHTML = ('0' + t.hours).slice(-3);
+            hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
             minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
             secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
