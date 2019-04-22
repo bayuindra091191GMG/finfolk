@@ -16,44 +16,51 @@
         {{--<a href="#" class="btn btn-primary btn-lg">Call to action!</a>--}}
     {{--</header>--}}
 <div class="container">
-        <!-- Trigger the modal with a button -->
-        {{-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> --}}
-      
-        <!-- Modal -->
-    <div id="clockdiv" class="row mb-3 mt-3">
-        <div class="col-md-2"></div>
-        <div class="col-md-8 col-12 bg-custom-black">
-            <div class="row">
-                <div class="col-md-3 col-6">
-                    <div style="background-color: #f6bc5b">
-                        <span class="days text-white"></span>
+    <div class="row mb-3 mt-3">
+        <div class="col-12">
+            <div class="row" style="margin-left: -10px; margin-right: -10px;">
+                <div class="col-md-2 bg-custom-black"></div>
+                <div class="col-md-8 col-12 bg-custom-black">
+                    <div id="clockdiv" class="row">
+{{--                        <div class="col-md-4 col-12">--}}
+{{--                            <div style="height: 160px;">--}}
+{{--                                <div class="box h-100 d-flex justify-content-center flex-column text-center">--}}
+{{--                                    <h1 class="text-white">Launch In</h1>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+                        <div class="col-md-3 col-6">
+                            <div>
+                                <span class="days text-white"></span>
+                            </div>
+                            <div class="smalltext text-custom-light-brown">DAYS</div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div>
+                                <span class="hours text-white"></span>
+                            </div>
+                            <div class="smalltext text-custom-light-brown">HOURS</div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div>
+                                <span class="minutes text-white"></span>
+                            </div>
+                            <div class="smalltext text-custom-light-brown">MINUTES</div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div>
+                                <span class="seconds text-white"></span>
+                            </div>
+                            <div class="smalltext text-custom-light-brown">SECONDS</div>
+                        </div>
                     </div>
-                    <div class="smalltext" style="color:#797f8d">Days</div>
                 </div>
-                <div class="col-md-3 col-6">
-                    <div style="background-color: #fa5559">
-                        <span class="hours text-white"></span>
-                    </div>
-                    <div class="smalltext" style="color:#797f8d">Hours</div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div style="background-color: #2dcb74">
-                        <span class="minutes text-white"></span>
-                    </div>
-                    <div class="smalltext" style="color:#797f8d">Minutes</div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div style="background-color: purple;">
-                        <span class="seconds text-white"></span>
-                    </div>
-                    <div class="smalltext" style="color:#797f8d">Seconds</div>
-                </div>
+                <div class="col-md-2 bg-custom-black"></div>
             </div>
         </div>
-        <div class="col-md-2"></div>
     </div>
-        
-    <div class="row mb-2">
+
+    <div class="row mb-2 ">
         <div class="col-lg-9 col-md-9 col-12 px-md-1">
             <div class="card home-banner-responsive">
                 <div id="slide_1" class="card-body" style="background-image: url('{{ asset('images/frontend/home/banner-1.jpg') }}');
@@ -425,15 +432,15 @@
         }
 
         #clockdiv div > span{
-            padding: 15px;
+            padding: 10px 10px 0 10px;
             border-radius: 3px;
             /* background: #00816A; */
             display: inline-block;
         }
 
         .smalltext{
-            padding-top: 5px;
-            font-size: 20px;
+            padding-top: 0;
+            font-size: 18px;
         }
 
         .videoWrapper {

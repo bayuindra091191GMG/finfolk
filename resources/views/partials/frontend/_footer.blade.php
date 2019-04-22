@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer class="bg-white">
-    <div class="container-fluid p-0">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 col-12">
                 <div class="card border-0">
