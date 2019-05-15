@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/util.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/main.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/custom-font.css') }}">
 </head>
 <style>
     .img-banner-responsive{
@@ -22,6 +23,11 @@
     .img-responsive{
         height: 90px;
     }
+
+    .img-early-bird-responsive{
+        height: 90px;
+    }
+
     .bold{
         font-weight: bold;
     }
@@ -79,6 +85,10 @@
         .img-responsive{
             height: 90px;
         }
+
+        .img-early-bird-responsive{
+            height: 110px;
+        }
     }
 
     @media (min-width: 1800px) {
@@ -123,47 +133,45 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center mt-5">
-                <p class="font-weight-bold" style="color: #c7462d; font-size: 40px;">VIP Seat</p>
-                <p class="font-weight-bold pb-3"style="color: #c7462d; font-size: 20px;">limited for 30 persons</p>
-                <p class="font-weight-bold text-white pb-3" style="font-size: 20px;">Benefit VIP</p>
+                <p class="font-custom-titillium-semi-bold-upright font-color-light-red" style="font-size: 50px;">VIP Seat</p>
+                <p class="font-custom-titillium-semi-bold-upright font-color-light-red pb-3"style="font-size: 20px;">limited for 30 persons</p>
+                <p class="font-custom-titillium-semi-bold-upright text-white pb-3" style="font-size: 20px;">Benefit VIP</p>
             </div>
         </div>
         <div class="row mb-3">
             <div class="col-1"></div>
             <div class="col-2 text-center custom-border-right">
                 <img src="{{ asset('images/finfolk/finfolk-website-05.png') }}" alt="harusnya front seat" width="130px">
-                <p class="pt-2 text-white bold" style="margin-top:31px;">Front Seat</p>
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:31px;">Front Seat</p>
             </div>
             <div class="col-2 text-center custom-border-right">
                 <img src="{{ asset('images/finfolk/finfolk-website-06.png') }}" alt="harusnya digital handout" width="100px">
-                <p class="pt-2 text-white bold"style="margin-top:9px;">Digital Handout</p>
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:9px;">Digital Handout</p>
             </div>
             <div class="col-2 text-center custom-border-right">
                 <img src="{{ asset('images/finfolk/finfolk-website-07.png') }}" alt="harusnya lunch with speakers" width="100px">
-                <p class="pt-2 text-white bold"style="margin-top:0px;">Lunch with <br/>Speakers</p>
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:0px;">Lunch with <br/>Speakers</p>
             </div>
             <div class="col-2 text-center custom-border-right">
                 <img src="{{ asset('images/finfolk/finfolk-website-08.png') }}" alt="harusnya private gathering" width="100px">
-                <p class="pt-2 text-white bold"style="margin-top:0px;">Salt Venture<br/> Private<br/> Gathering</p>
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:0px;">Salt Venture<br/> Private<br/> Gathering</p>
             </div>
             <div class="col-2 text-center">
-                <img src="{{ asset('images/finfolk/finfolk-website-09.jpg') }}" alt="harusnya voucher" width="120px">
-                <p class="pt-2 text-white bold"style="margin-top:28px;">Land X Voucher<br/> worth <br/>Rp 1.000.000</p>
+                <img src="{{ asset('images/finfolk/finfolk-website-09.png') }}" alt="harusnya voucher" width="120px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:28px;">Land X Voucher<br/> worth <br/>Rp 1.000.000</p>
             </div>
             <div class="col-1"></div>
         </div>
         <div class="row">
             <div class="col-12 text-center">
                 <div>
-                    <div class="img-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-13.png') }});
+                    <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-13.png') }});
 							background-repeat: no-repeat;
 							background-position: center;
 							background-size: contain;">
-                        <div class="pt-3">
-                            <span class="font-weight-bold text-white">Rp 2.500.000,-</span><br/>
-                        </div>
-                        <div class="pt-1">
-                            <span class="font-weight-bold text-white">EARLY BIRD : Rp 2.250.000,-</span>
+                        <div class="box h-100 d-flex justify-content-center flex-column">
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 2.500.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">EARLY BIRD : Rp 2.250.000,-</span>
                         </div>
                     </div>
                 </div>
@@ -179,55 +187,53 @@
 	        background-position: center;
             background-size: cover;">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-12 text-center mt-5">
-                <p class="font-weight-bold" style="color: #c7462d; font-size: 40px;">VIP Seat</p>
-                <p class="font-weight-bold pb-3"style="color: #c7462d; font-size: 20px;">limited for 30 persons</p>
-                <p class="font-weight-bold text-white pb-3" style="font-size: 20px;">Benefit VIP</p>
+                <p class="font-custom-titillium-semi-bold-upright font-color-light-red" style="font-size: 40px;">VIP Seat</p>
+                <p class="font-custom-titillium-semi-bold-upright font-color-light-red mb-4" style="font-size: 20px;">limited for 30 persons</p>
+                <p class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Benefit VIP</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 text-center pb-5">
-                <img src="{{ asset('images/finfolk/finfolk-website-05.png') }}" alt="harusnya front seat" width="130px">
-                <p class="py-2 text-white bold">Front Seat</p>
-                <hr class="mx-auto" style="border-bottom: 2px solid #fff;width: 40%;"/>
+        <div class="row mb-5">
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-05.png') }}" alt="harusnya front seat" width="130px">
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Front Seat</p>
+                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #fff;width: 40%;"/>
             </div>
-            <div class=" col-12 text-center pb-5">
-                <img src="{{ asset('images/finfolk/finfolk-website-06.png') }}" alt="harusnya digital handout" width="100px">
-                <p class="py-2 text-white bold">Digital Handout</p>
-                <hr class="mx-auto" style="border-bottom: 2px solid #fff;width: 40%;"/>
+            <div class=" col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-06.png') }}" alt="harusnya digital handout" width="100px">
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Digital Handout</p>
+                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #fff;width: 40%;"/>
             </div>
-            <div class="col-12 text-center pb-5">
-                <img src="{{ asset('images/finfolk/finfolk-website-07.png') }}" alt="harusnya lunch with speakers" width="100px">
-                <p class="py-2 text-white bold">Lunch with <br/>Speakers</p>
-                <hr class="mx-auto" style="border-bottom: 2px solid #fff;width: 40%;"/>
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-07.png') }}" alt="harusnya lunch with speakers" width="100px">
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Lunch with Speakers</p>
+                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #fff;width: 40%;"/>
             </div>
-            <div class="col-12 text-center pb-5">
-                <img src="{{ asset('images/finfolk/finfolk-website-08.png') }}" alt="harusnya private gathering" width="100px">
-                <p class="py-2 text-white bold">Salt Venture<br/> Private<br/> Gathering</p>
-                <hr class="mx-auto" style="border-bottom: 2px solid #fff;width: 40%;"/>
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-08.png') }}" alt="harusnya private gathering" width="100px">
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Salt Venture Private<br/> Gathering</p>
+                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #fff;width: 40%;"/>
             </div>
-            <div class="col-12 text-center pb-5">
-                <img src="{{ asset('images/finfolk/finfolk-website-09.png') }}" alt="harusnya voucher" width="120px">
-                <p class="py-2 text-white bold">Land X Voucher<br/> worth <br/>Rp 1.000.000</p>
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-09.png') }}" alt="harusnya voucher" width="120px">
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Land X Voucher<br/> worth Rp 1.000.000</p>
             </div>
         </div>
-        <div class="row mt-3">
+        <div class="row mb-4">
             <div class="col-12 text-center">
                 <div>
-                    <div class="img-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-13.png') }});
+                    <div style="background-image: url({{ asset('images/finfolk/finfolk-website-13.png') }});
 	                    background-repeat: no-repeat;
 	                    background-position: center;
-                        background-size: contain;">
-                        <div class="pt-3">
-                            <span class="font-weight-bold text-white">Rp 2.500.000,-</span><br/>
-                        </div>
-                        <div class="pt-1">
-                            <span class="font-weight-bold text-white">EARLY BIRD : Rp 2.250.000,-</span>
+                        background-size: contain;
+                        height: 100px;">
+                        <div class="box h-100 d-flex justify-content-center flex-column">
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Rp 2.500.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 2.250.000,-</span>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -236,40 +242,38 @@
 
 <section class="d-none d-md-block mb-5">
     <div class="container-fluid">
-        <div class="row blue">
+        <div class="row blue mb-5">
             <div class="col-12 text-center mt-5">
-                <p class="font-weight-bold" style="font-size: 40px;">General Seat</p>
-                <p class="font-weight-bold pb-3"style="font-size: 20px;">270 persons</p>
-                <p class="font-weight-bold" style="font-size: 20px;">Benefit</p>
+                <h1 class="font-custom-titillium-semi-bold-upright" style="font-size: 60px;">General Seat</h1>
+                <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px;">270 persons</span><br/><br/><br/>
+                <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px;">Benefit</span>
             </div>
         </div>
         <div class="row blue">
             <div class="col-3"></div>
             <div class="col-2 text-center">
                 <img src="{{ asset('images/finfolk/finfolk-website-10.png') }}" alt="harusnya digital handout" width="100px">
-                <p class="pt-2 bold"style="margin-top:9px;">Digital Handout</p>
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:9px;">Digital Handout</p>
             </div>
             <div class="col-2 text-center custom-border-left">
                 <img src="{{ asset('images/finfolk/finfolk-website-11.png') }}" alt="harusnya lunch with speakers" width="100px">
-                <p class="pt-2 bold"style="margin-top:18px;">Lunch with <br/>Speakers</p>
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:18px;">Lunch Buffet</p>
             </div>
             <div class="col-2 text-center custom-border-left">
                 <img src="{{ asset('images/finfolk/finfolk-website-12.png') }}" alt="harusnya voucher" width="120px">
-                <p class="pt-2 bold"style="margin-top:28px;">Land X Voucher<br/> worth <br/>Rp 1.000.000</p>
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:28px;">Land X Voucher</p>
             </div>
             <div class="col-3"></div>
         </div>
         <div class="row mt-3">
             <div class="col-12 text-center">
-                <div class="img-responsive" style="background-image: url('{{ asset('images/finfolk/finfolk-website-14.png') }}');
+                <div class="img-early-bird-responsive" style="background-image: url('{{ asset('images/finfolk/finfolk-website-14.png') }}');
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: contain;">
-                    <div class="pt-3">
-                        <span class="font-weight-bold text-white">Rp.1.500.000,-</span><br/>
-                    </div>
-                    <div class="pt-1">
-                        <span class="font-weight-bold text-white">EARLY BIRD : Rp 1.250.000,-</span>
+                    <div class="box h-100 d-flex justify-content-center flex-column">
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Rp 1.500.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 1.250.000,-</span>
                     </div>
                 </div>
             </div>
@@ -286,47 +290,45 @@
 <!-- Reguler mobile start -->
 <section class="d-block d-md-none mb-5">
     <div class="container-fluid">
-        <div class="row blue">
+        <div class="row blue mb-5">
             <div class="col-12 text-center mt-5">
-                <p class="font-weight-bold" style="font-size: 40px;">General Seat</p>
-                <p class="font-weight-bold pb-3"style="font-size: 20px;">270 persons</p>
-                <p class="font-weight-bold" style="font-size: 20px;">Benefit</p>
+                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 40px;">General Seat</p>
+                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px;">270 persons</p>
+                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 20px;">Benefit</p>
             </div>
         </div>
         <div class="row blue">
-            <div class="col-12 text-center">
-                <img src="{{ asset('images/finfolk/finfolk-website-10.png') }}" alt="harusnya digital handout" width="100px">
-                <p class="py-2 bold">Digital Handout</p>
-                <hr class="mx-auto" style="border-bottom: 2px solid #000;width: 40%;"/>
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-10.png') }}" alt="harusnya digital handout" width="100px">
+                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Digital Handout</p>
+                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #000; width: 55%;"/>
             </div>
-            <div class="col-12 text-center">
-                <img src="{{ asset('images/finfolk/finfolk-website-11.png') }}" alt="harusnya lunch with speakers" width="100px">
-                <p class="py-2 bold">Lunch with <br/>Speakers</p>
-                <hr class="mx-auto" style="border-bottom: 2px solid #000;width: 40%;"/>
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-11.png') }}" alt="harusnya lunch with speakers" width="100px">
+                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Lunch Buffet</p>
+                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #000;width: 55%;"/>
             </div>
-            <div class="col-12 text-center">
-                <img src="{{ asset('images/finfolk/finfolk-website-12.png') }}" alt="harusnya voucher" width="120px">
-                <p class="py-2 bold">Land X Voucher<br/> worth <br/>Rp 1.000.000</p>
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-12.png') }}" alt="harusnya voucher" width="120px">
+                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Land X Voucher</p>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-12 text-center">
-                <div class="img-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-14.png') }});
+                <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-14.png') }});
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: contain;">
-                    <div class="pt-3">
-                        <span class="font-weight-bold text-white">Rp.1.500.000,-</span><br/>
-                    </div>
-                    <div class="pt-1">
-                        <span class="font-weight-bold text-white">EARLY BIRD : Rp 1.250.000,-</span>
+                    <div class="box h-100 d-flex justify-content-center flex-column">
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Rp 1.500.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 1.250.000,-</span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-12 text-center blue mt-5">
-                <p style ="font-size: 20px;">Book by Whats app :081288822284</p>
+                <p class="font-custom-titillium-regular-upright" style="font-size: 20px;">Book by Whats app : <b>081288822284</b></p>
             </div>
         </div>
     </div>
@@ -337,7 +339,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="text-white">Launching Soon</h1>
+                <h1 class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 60px;">Launching Soon</h1>
             </div>
         </div>
         <div class="row">
@@ -346,28 +348,28 @@
                 <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
                     <div class="flex-col-c-m wsize2 m-b-20">
                         <span class="l1-txt2 p-b-4 days">35</span>
-                        <span class="m2-txt2">Days</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>
                     </div>
 
-                    <span class="l1-txt2 p-b-22">:</span>
+                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
                     <div class="flex-col-c-m wsize2 m-b-20">
                         <span class="l1-txt2 p-b-4 hours">17</span>
-                        <span class="m2-txt2">Hours</span>
+                        <span class="font-custom-titillium-regular-uprightt m2-txt2" style="padding-top: 20px;">HOURS</span>
                     </div>
 
-                    <span class="l1-txt2 p-b-22 respon2">:</span>
+                    <span class="l1-txt2 p-b-22 respon2" style="padding-bottom: 73px;">:</span>
 
                     <div class="flex-col-c-m wsize2 m-b-20">
                         <span class="l1-txt2 p-b-4 minutes">50</span>
-                        <span class="m2-txt2">Minutes</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>
                     </div>
 
-                    <span class="l1-txt2 p-b-22">:</span>
+                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
                     <div class="flex-col-c-m wsize2 m-b-20">
                         <span class="l1-txt2 p-b-4 seconds">39</span>
-                        <span class="m2-txt2">Seconds</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>
                     </div>
                 </div>
             </div>
