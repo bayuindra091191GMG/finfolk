@@ -347,28 +347,28 @@
             <div class="col-md-6 col-12 text-center">
                 <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
                     <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="l1-txt2 p-b-4 days">35</span>
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 days">35</span>
                         <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>
                     </div>
 
                     <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
                     <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="l1-txt2 p-b-4 hours">17</span>
-                        <span class="font-custom-titillium-regular-uprightt m2-txt2" style="padding-top: 20px;">HOURS</span>
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 hours">17</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">HOURS</span>
                     </div>
 
                     <span class="l1-txt2 p-b-22 respon2" style="padding-bottom: 73px;">:</span>
 
                     <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="l1-txt2 p-b-4 minutes">50</span>
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 minutes">50</span>
                         <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>
                     </div>
 
                     <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
                     <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="l1-txt2 p-b-4 seconds">39</span>
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 seconds">39</span>
                         <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>
                     </div>
                 </div>
@@ -390,9 +390,9 @@
         /*Set Endtime here*/
         /*Endtime must be > current time*/
         endtimeYear: 2019,
-        endtimeMonth: 8,
-        endtimeDate: 25,
-        endtimeHours: 18,
+        endtimeMonth: 6,
+        endtimeDate: 19,
+        endtimeHours: 10,
         endtimeMinutes: 0,
         endtimeSeconds: 0,
         timeZone: "Asia/Jakarta"

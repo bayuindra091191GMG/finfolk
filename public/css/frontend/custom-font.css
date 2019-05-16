@@ -1,17 +1,21 @@
 .font-custom-titillium-regular{
-    font-family: 'Titillium Regular', sans-serif;
+    font-family: 'Titillium Regular', sans-serif !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
 .font-custom-titillium-regular-italic{
-    font-family: 'Titillium Regular Italic', sans-serif;
+    font-family: 'Titillium Regular Italic', sans-serif !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
 .font-custom-titillium-regular-upright{
-    font-family: 'Titillium Regular Upright', sans-serif;
+    font-family: 'Titillium Regular Upright', sans-serif !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
 .font-custom-titillium-semi-bold-upright{
-    font-family: 'Titillium Semi Bold Upright', sans-serif;
+    font-family: 'Titillium Semi Bold Upright', sans-serif !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
 @font-face {
