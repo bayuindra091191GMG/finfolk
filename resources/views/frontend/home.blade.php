@@ -474,7 +474,10 @@
 </section>
 <!-- Reguler mobile end -->
 
-<section class="py-5" style="background-color: #182583;">
+<section class="py-5" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-04.jpg') }});
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
