@@ -15,7 +15,7 @@
 </head>
 <style>
     .img-banner-responsive{
-        height: 200px;
+        height: 250px;
     }
     .img-banner-responsive2{
         height: 1550px;
@@ -25,7 +25,7 @@
     }
 
     .img-early-bird-responsive{
-        height: 90px;
+        height: 80px;
     }
 
     .bold{
@@ -45,7 +45,13 @@
     }
     .custom-border-right{
         border-right: 1px solid white;
-        height: 200px;
+        height: 90px;
+        margin-bottom: 50px;
+    }
+
+    .custom-border-right2{
+        border-right: 1px solid black;
+        height: 90px;
         margin-bottom: 50px;
     }
     .custom-border-left{
@@ -99,7 +105,7 @@
     }
 </style>
 <body>
-<section>
+<section class= "d-none d-md-block">
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
@@ -112,7 +118,22 @@
         </div>
     </div>
 </section>
-
+    {{-- banner mobile start --}}
+<section class="d-block d-md-none">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-12.jpg') }});
+					background-repeat: no-repeat;
+					background-position: center;
+                    background-size: cover;
+                    height: 735px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    {{-- banner mobile end --}}
 <section>
     <div class="container-fluid p-0">
         <div class="row no-gutters">
@@ -182,7 +203,8 @@
 </section>
 
 <!-- VIP mobile start -->
-<section class="d-block d-md-none pb-5" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-03.jpg') }});
+
+{{-- <section class="d-block d-md-none pb-5" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-03.jpg') }});
 	        background-repeat: no-repeat;
 	        background-position: center;
             background-size: cover;">
@@ -237,6 +259,63 @@
             </div>
         </div>
     </div>
+</section> --}}
+
+<section class="d-block d-md-none pb-4" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-03.jpg') }});
+	        background-repeat: no-repeat;
+	        background-position: center;
+            background-size: cover;">
+    <div class="container-fluid">
+        <div class="row px-3">
+            <div class="col-12 text-center mt-5">
+                <p class="font-custom-titillium-semi-bold-upright font-color-light-red" style="font-size: 50px;">VIP Seat</p>
+                <p class="font-custom-titillium-semi-bold-upright font-color-light-red pb-3"style="font-size: 20px;">limited for 30 persons</p>
+                <p class="font-custom-titillium-semi-bold-upright text-white pb-5" style="font-size: 20px;">Benefit VIP</p>
+            </div>
+        </div>
+        <div class="row px-5" style="margin-bottom: -25px;">
+            <div class="col-4 text-center custom-border-right">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-05.png') }}" alt="harusnya front seat" width="50px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:9px;">Front Seat</p>
+            </div>
+            <div class="col-4 text-center custom-border-right">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-06.png') }}" alt="harusnya digital handout" width="30px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Digital Handout</p>
+            </div>
+            <div class="col-4 text-center">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-07.png') }}" alt="harusnya lunch with speakers" width="30px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:5px;">Lunch with <br/>Speakers</p>
+            </div>
+        </div>
+        <div class="row px-3">
+            <div class="col-1"></div>
+            <div class="col-5 text-center custom-border-right">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-08.png') }}" alt="harusnya private gathering" width="30px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:9px;">Salt Venture<br/> Private Gathering</p>
+            </div>
+            <div class="col-5 text-center">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-09.png') }}" alt="harusnya voucher" width="50px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Land X Voucher<br/> worth Rp 1.000.000</p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <div>
+                    <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-11.png') }});
+							background-repeat: no-repeat;
+							background-position: center;
+							background-size: contain;">
+                        <div class="box h-100 d-flex justify-content-center flex-column">
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 16px;">Rp 2.500.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 16px;">EARLY BIRD : Rp 2.250.000,-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </section>
 <!-- VIP mobile end -->
 
@@ -288,7 +367,7 @@
 </section>
 
 <!-- Reguler mobile start -->
-<section class="d-block d-md-none mb-5">
+{{-- <section class="d-block d-md-none mb-5">
     <div class="container-fluid">
         <div class="row blue mb-5">
             <div class="col-12 text-center mt-5">
@@ -322,6 +401,66 @@
                     <div class="box h-100 d-flex justify-content-center flex-column">
                         <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Rp 1.500.000,-</span>
                         <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 1.250.000,-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center blue mt-5">
+                <p class="font-custom-titillium-regular-upright" style="font-size: 20px;">Book by Whats app : <b>081288822284</b></p>
+            </div>
+        </div>
+    </div>
+</section> --}}
+
+<section class="d-block d-md-none mb-5">
+    <div class="container-fluid">
+        <div class="row blue mb-5">
+            <div class="col-12 text-center mt-5">
+                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 40px;">General Seat</p>
+                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px;">270 persons</p>
+                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 20px;">Benefit</p>
+            </div>
+        </div>
+        {{-- <div class="row blue">
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/mobile-finfolk-02.png') }}" alt="harusnya digital handout" width="70px">
+                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Digital Handout</p>
+                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #000; width: 55%;"/>
+            </div>
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/mobile-finfolk-03.png') }}" alt="harusnya lunch with speakers" width="70px">
+                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Lunch Buffet</p>
+                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #000;width: 55%;"/>
+            </div>
+            <div class="col-12 text-center mb-4">
+                <img class="mb-3" src="{{ asset('images/finfolk/mobile-finfolk-04.png') }}" alt="harusnya voucher" width="90px">
+                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Land X Voucher</p>
+            </div>
+        </div> --}}
+        <div class="row px-5 blue">
+            <div class="col-4 text-center custom-border-right2">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-02.png') }}" alt="harusnya front seat" width="50px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:5px;">Front Seat</p>
+            </div>
+            <div class="col-4 text-center custom-border-right2">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-03.png') }}" alt="harusnya digital handout" width="50px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:11px;">Digital Handout</p>
+            </div>
+            <div class="col-4 text-center">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-04.png') }}" alt="harusnya lunch with speakers" width="50px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:21px;">Lunch with <br/>Speakers</p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-14.png') }});
+					background-repeat: no-repeat;
+					background-position: center;
+					background-size: contain;">
+                    <div class="box h-100 d-flex justify-content-center flex-column">
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 16px;">Rp 1.500.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 16px;">EARLY BIRD : Rp 1.250.000,-</span>
                     </div>
                 </div>
             </div>
