@@ -478,41 +478,76 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 60px;">Launching Soon</h1>
+                <h1 class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 50px;">Launching Soon</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 col-12 text-center">
-                <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
-                    <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 days">35</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>
+        <div class="d-none d-md-block">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 col-12 text-center">
+                    <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
+                        <div class="flex-col-c-b wsize2 m-b-20">
+                            <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 days">35</span>
+                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>
+                        </div>
+
+                        <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+
+                        <div class="flex-col-c-m wsize2 m-b-20">
+                            <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 hours">17</span>
+                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">HOURS</span>
+                        </div>
+
+                        <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+
+                        <div class="flex-col-c-m wsize2 m-b-20">
+                            <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 minutes">50</span>
+                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>
+                        </div>
+
+                        <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+
+                        <div class="flex-col-c-m wsize2 m-b-20">
+                            <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 seconds">39</span>
+                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>
+                        </div>
                     </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+        <div class="d-md-none d-block">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
+                        <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                            <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 days">35</span>
+                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px; font-size: 15px;">DAYS</span>
+                        </div>
 
-                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+                        <span class="l1-txt2" style="padding-bottom: 65px;">:</span>
 
-                    <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 hours">17</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">HOURS</span>
-                    </div>
+                        <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                            <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 hours">17</span>
+                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px; font-size: 15px;">HOURS</span>
+                        </div>
 
-                    <span class="l1-txt2 p-b-22 respon2" style="padding-bottom: 73px;">:</span>
+                        <span class="l1-txt2" style="padding-bottom: 65px;">:</span>
 
-                    <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 minutes">50</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>
-                    </div>
+                        <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                            <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 minutes">50</span>
+                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px; font-size: 15px;">MINUTES</span>
+                        </div>
 
-                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+                        <span class="l1-txt2" style="padding-bottom: 65px;">:</span>
 
-                    <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 seconds">39</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>
+                        <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                            <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 seconds">39</span>
+                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px; font-size: 15px;">SECONDS</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3"></div>
         </div>
     </div>
 </section>
