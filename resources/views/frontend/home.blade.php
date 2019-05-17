@@ -25,7 +25,7 @@
     }
 
     .img-early-bird-responsive{
-        height: 80px;
+        height: 70px;
     }
 
     .bold{
@@ -45,13 +45,13 @@
     }
     .custom-border-right{
         border-right: 1px solid white;
-        height: 90px;
+        height: 74px;
         margin-bottom: 50px;
     }
 
     .custom-border-right2{
         border-right: 1px solid black;
-        height: 90px;
+        height: 80px;
         margin-bottom: 50px;
     }
     .custom-border-left{
@@ -138,19 +138,19 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/vid-dummy.png') }});
-					background-repeat: no-repeat;
-					background-position: center;
-					background-size: cover;">
+{{--                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/vid-dummy.png') }});--}}
+{{--					background-repeat: no-repeat;--}}
+{{--					background-position: center;--}}
+{{--					background-size: cover;">--}}
+{{--                </div>--}}
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/E6yBFeliWv4')}}" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="d-none d-md-block pb-4" style="background-image: url({{ asset('images/finfolk/finfolk-website-03.jpg') }});
-	        background-repeat: no-repeat;
-	        background-position: center;
-            background-size: cover;">
+<section class="d-none d-md-block pb-4" style="background-color: #29292d;">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center mt-5">
@@ -198,7 +198,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </section>
 
@@ -261,10 +260,7 @@
     </div>
 </section> --}}
 
-<section class="d-block d-md-none pb-4" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-03.jpg') }});
-	        background-repeat: no-repeat;
-	        background-position: center;
-            background-size: cover;">
+<section class="d-block d-md-none pb-4" style="background-color: #29292d;">
     <div class="container-fluid">
         <div class="row px-3">
             <div class="col-12 text-center mt-5">
@@ -299,7 +295,7 @@
             </div>
             <div class="col-1"></div>
         </div>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-12 text-center">
                 <div>
                     <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-11.png') }});
@@ -307,14 +303,13 @@
 							background-position: center;
 							background-size: contain;">
                         <div class="box h-100 d-flex justify-content-center flex-column">
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 16px;">Rp 2.500.000,-</span>
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 16px;">EARLY BIRD : Rp 2.250.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Rp 2.500.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 2.250.000,-</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </section>
 <!-- VIP mobile end -->
@@ -441,15 +436,15 @@
         <div class="row px-5 blue">
             <div class="col-4 text-center custom-border-right2">
                 <img src="{{ asset('images/finfolk/mobile-finfolk-02.png') }}" alt="harusnya front seat" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:5px;">Front Seat</p>
+                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:5px;">Digital Handout</p>
             </div>
             <div class="col-4 text-center custom-border-right2">
                 <img src="{{ asset('images/finfolk/mobile-finfolk-03.png') }}" alt="harusnya digital handout" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:11px;">Digital Handout</p>
+                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:11px;">Lunch Buffet</p>
             </div>
             <div class="col-4 text-center">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-04.png') }}" alt="harusnya lunch with speakers" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:21px;">Lunch with <br/>Speakers</p>
+                <img src="{{ asset('images/finfolk/mobile-finfolk-04.png') }}" alt="harusnya lunch with speakers" width="50px"  style="margin-top: 9px;">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:12px;">Land X Voucher</p>
             </div>
         </div>
         <div class="row mt-3">
@@ -459,8 +454,8 @@
 					background-position: center;
 					background-size: contain;">
                     <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 16px;">Rp 1.500.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 16px;">EARLY BIRD : Rp 1.250.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Rp 1.500.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 1.250.000,-</span>
                     </div>
                 </div>
             </div>
@@ -474,80 +469,89 @@
 </section>
 <!-- Reguler mobile end -->
 
-<section class="py-5" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-04.jpg') }});
+<section class="py-5 d-none d-md-block" style="background-image: url({{ asset('images/finfolk/finfolk-website-04.jpg') }});
 background-repeat: no-repeat;
 background-position: center;
-background-size: contain;">
+background-size: cover;">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-12 text-center">
                 <h1 class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 50px;">Launching Soon</h1>
             </div>
         </div>
-        <div class="d-none d-md-block">
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 col-12 text-center">
-                    <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
-                        <div class="flex-col-c-b wsize2 m-b-20">
-                            <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 days">35</span>
-                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>
-                        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 col-12 text-center">
+                <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
+                    <div class="flex-col-c-b wsize2 m-b-20">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 days">35</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>
+                    </div>
 
-                        <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
-                        <div class="flex-col-c-m wsize2 m-b-20">
-                            <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 hours">17</span>
-                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">HOURS</span>
-                        </div>
+                    <div class="flex-col-c-m wsize2 m-b-20">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 hours">17</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">HOURS</span>
+                    </div>
 
-                        <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
-                        <div class="flex-col-c-m wsize2 m-b-20">
-                            <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 minutes">50</span>
-                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>
-                        </div>
+                    <div class="flex-col-c-m wsize2 m-b-20">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 minutes">50</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>
+                    </div>
 
-                        <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
-                        <div class="flex-col-c-m wsize2 m-b-20">
-                            <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 seconds">39</span>
-                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>
-                        </div>
+                    <div class="flex-col-c-m wsize2 m-b-20">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 seconds">39</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 d-md-none d-block" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-04.jpg') }});
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;">
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <h1 class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 40px;">Launching Soon</h1>
             </div>
         </div>
-        <div class="d-md-none d-block">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
-                        <div class="flex-col-c-m m-b-20" style="width: 40px;">
-                            <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 days">35</span>
-                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px; font-size: 15px;">DAYS</span>
-                        </div>
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
+                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 days" style="font-size: 40px;">35</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">DAYS</span>
+                    </div>
 
-                        <span class="l1-txt2" style="padding-bottom: 65px;">:</span>
+                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>
 
-                        <div class="flex-col-c-m m-b-20" style="width: 40px;">
-                            <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 hours">17</span>
-                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px; font-size: 15px;">HOURS</span>
-                        </div>
+                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 hours" style="font-size: 40px;">17</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">HOURS</span>
+                    </div>
 
-                        <span class="l1-txt2" style="padding-bottom: 65px;">:</span>
+                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>
 
-                        <div class="flex-col-c-m m-b-20" style="width: 40px;">
-                            <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 minutes">50</span>
-                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px; font-size: 15px;">MINUTES</span>
-                        </div>
+                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 minutes" style="font-size: 40px;">50</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">MINUTES</span>
+                    </div>
 
-                        <span class="l1-txt2" style="padding-bottom: 65px;">:</span>
+                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>
 
-                        <div class="flex-col-c-m m-b-20" style="width: 40px;">
-                            <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 seconds">39</span>
-                            <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px; font-size: 15px;">SECONDS</span>
-                        </div>
+                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 seconds" style="font-size: 40px;">39</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">SECONDS</span>
                     </div>
                 </div>
             </div>
