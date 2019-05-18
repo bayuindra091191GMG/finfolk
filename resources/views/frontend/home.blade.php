@@ -1,8 +1,8 @@
-<html lang="en">
+<html dir="ltr" lang="en-US">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Finfolk Live - Home Page">
     <meta name="author" content="PT. Generasi Muda Gigih">
     <meta name="keywords" content="Finfolk, Property, Event">
@@ -68,7 +68,6 @@
         display: inline-block;
         font-size: 1.5em;
         list-style-type: none;
-        padding: 1em;
         text-transform: uppercase;
         color: #fff;
         padding: 10px !important;
@@ -105,7 +104,7 @@
     }
 </style>
 <body>
-<section class= "d-none d-md-block">
+<section class="d-none d-md-block">
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
