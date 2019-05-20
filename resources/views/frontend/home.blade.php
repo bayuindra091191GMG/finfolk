@@ -178,7 +178,7 @@
             </div>
             <div class="col-2 text-center">
                 <img src="{{ asset('images/finfolk/finfolk-website-09.png') }}" alt="harusnya voucher" width="120px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:28px;">Land X Voucher<br/> worth <br/>Rp 1.000.000</p>
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:28px;">Land X Voucher<br/> worth <br/>Rp 2.000.000</p>
             </div>
             <div class="col-1"></div>
         </div>
