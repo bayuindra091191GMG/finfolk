@@ -475,7 +475,8 @@ background-size: cover;">
     <div class="container-fluid">
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <h1 class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 50px;">Launching Soon</h1>
+                {{-- <h1 class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 50px;">Launching Soon</h1> --}}
+                <img src="{{ asset('images/finfolk/logo-finfolk-pc.png') }}" alt="harusnya logo finfolk pc" width="300px">
             </div>
         </div>
         <div class="row">
@@ -521,7 +522,8 @@ background-size: cover;">
     <div class="container-fluid">
         <div class="row mt-5">
             <div class="col-12 text-center">
-                <h1 class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 40px;">Launching Soon</h1>
+                {{-- <h1 class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 40px;">Launching Soon</h1> --}}
+                <img src="{{ asset('images/finfolk/logo-finfolk-mobile.png') }}" alt="harusnya logo finfolk mobile" width="250px">
             </div>
         </div>
         <div class="row mt-4">
