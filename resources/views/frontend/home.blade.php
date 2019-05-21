@@ -237,7 +237,7 @@
             </div>
             <div class="col-12 text-center mb-4">
                 <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-09.png') }}" alt="harusnya voucher" width="90px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Land X Voucher<br/> worth Rp 1.000.000</p>
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Land X Voucher<br/> worth Rp 2.000.000</p>
             </div>
         </div>
         <div class="row mb-4">
@@ -290,7 +290,7 @@
             </div>
             <div class="col-5 text-center">
                 <img src="{{ asset('images/finfolk/mobile-finfolk-09.png') }}" alt="harusnya voucher" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Land X Voucher<br/> worth Rp 1.000.000</p>
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Land X Voucher<br/> worth Rp 2.000.000</p>
             </div>
             <div class="col-1"></div>
         </div>
@@ -515,10 +515,10 @@ background-size: cover;">
     </div>
 </section>
 
-<section class="py-5 d-md-none d-block" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-04.jpg') }});
+<section class="pt-4 pb-5 d-md-none d-block" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-04.jpg') }});
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;">
+        background-size: cover;">
     <div class="container-fluid">
         <div class="row mt-5">
             <div class="col-12 text-center">
@@ -528,7 +528,7 @@ background-size: cover;">
         </div>
         <div class="row mt-4">
             <div class="col-12 text-center">
-                <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
+                <div class="flex-w flex-sa-m cd100 p-t-42 p-l-50 p-r-50 respon1">
                     <div class="flex-col-c-m m-b-20" style="width: 40px;">
                         <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 days" style="font-size: 40px;">35</span>
                         <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">DAYS</span>
