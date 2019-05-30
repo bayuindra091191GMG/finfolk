@@ -347,8 +347,8 @@
 					background-position: center;
 					background-size: contain;">
                     <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Rp 1.500.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 1.250.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 1.500.000,-</span>
+{{--                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 1.250.000,-</span>--}}
                     </div>
                 </div>
             </div>
@@ -455,8 +455,8 @@
 					background-position: center;
 					background-size: contain;">
                     <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Rp 1.500.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 1.250.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 1.500.000,-</span>
+{{--                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 1.250.000,-</span>--}}
                     </div>
                 </div>
             </div>
