@@ -129,11 +129,11 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-12.jpg') }});
+                <div class="w-100" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-14.jpg') }});
 					background-repeat: no-repeat;
 					background-position: center;
                     background-size: cover;
-                    height: 735px;">
+                    height: 669px;">
                 </div>
             </div>
         </div>
