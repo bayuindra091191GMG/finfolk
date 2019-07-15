@@ -490,9 +490,10 @@
 <!-- Reguler mobile end -->
 
 <section class="py-5 d-none d-md-block" style="background-image: url({{ asset('images/finfolk/finfolk-website-04.jpg') }});
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;">
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;">
     <div class="container-fluid">
         <div class="row mt-5">
             <div class="col-12 text-center">
@@ -500,46 +501,47 @@ background-size: cover;">
                 <img src="{{ asset('images/finfolk/logo-finfolk-pc.png') }}" alt="harusnya logo finfolk pc" width="300px">
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6 col-12 text-center">
-                <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
-                    <div class="flex-col-c-b wsize2 m-b-20">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 days">35</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>
-                    </div>
+{{--        <div class="row">--}}
+{{--            <div class="col-md-3"></div>--}}
+{{--            <div class="col-md-6 col-12 text-center">--}}
+{{--                <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">--}}
+{{--                    <div class="flex-col-c-b wsize2 m-b-20">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 days">35</span>--}}
+{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>--}}
+{{--                    </div>--}}
 
-                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+{{--                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>--}}
 
-                    <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 hours">17</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">HOURS</span>
-                    </div>
+{{--                    <div class="flex-col-c-m wsize2 m-b-20">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 hours">17</span>--}}
+{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">HOURS</span>--}}
+{{--                    </div>--}}
 
-                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+{{--                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>--}}
 
-                    <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 minutes">50</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>
-                    </div>
+{{--                    <div class="flex-col-c-m wsize2 m-b-20">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 minutes">50</span>--}}
+{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>--}}
+{{--                    </div>--}}
 
-                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
+{{--                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>--}}
 
-                    <div class="flex-col-c-m wsize2 m-b-20">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 seconds">39</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
+{{--                    <div class="flex-col-c-m wsize2 m-b-20">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 seconds">39</span>--}}
+{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-md-3"></div>--}}
+{{--        </div>--}}
     </div>
 </section>
 
 <section class="pt-4 pb-5 d-md-none d-block" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-04.jpg') }});
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;">
+        background-size: cover;
+        height: 300px;">
     <div class="container-fluid">
         <div class="row mt-5">
             <div class="col-12 text-center">
@@ -547,37 +549,37 @@ background-size: cover;">
                 <img src="{{ asset('images/finfolk/logo-finfolk-mobile.png') }}" alt="harusnya logo finfolk mobile" width="250px">
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col-12 text-center">
-                <div class="flex-w flex-sa-m cd100 p-t-42 p-l-50 p-r-50 respon1">
-                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 days" style="font-size: 40px;">35</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">DAYS</span>
-                    </div>
+{{--        <div class="row mt-4">--}}
+{{--            <div class="col-12 text-center">--}}
+{{--                <div class="flex-w flex-sa-m cd100 p-t-42 p-l-50 p-r-50 respon1">--}}
+{{--                    <div class="flex-col-c-m m-b-20" style="width: 40px;">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 days" style="font-size: 40px;">35</span>--}}
+{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">DAYS</span>--}}
+{{--                    </div>--}}
 
-                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>
+{{--                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>--}}
 
-                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 hours" style="font-size: 40px;">17</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">HOURS</span>
-                    </div>
+{{--                    <div class="flex-col-c-m m-b-20" style="width: 40px;">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 hours" style="font-size: 40px;">17</span>--}}
+{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">HOURS</span>--}}
+{{--                    </div>--}}
 
-                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>
+{{--                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>--}}
 
-                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 minutes" style="font-size: 40px;">50</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">MINUTES</span>
-                    </div>
+{{--                    <div class="flex-col-c-m m-b-20" style="width: 40px;">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 minutes" style="font-size: 40px;">50</span>--}}
+{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">MINUTES</span>--}}
+{{--                    </div>--}}
 
-                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>
+{{--                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>--}}
 
-                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
-                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 seconds" style="font-size: 40px;">39</span>
-                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">SECONDS</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+{{--                    <div class="flex-col-c-m m-b-20" style="width: 40px;">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 seconds" style="font-size: 40px;">39</span>--}}
+{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">SECONDS</span>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
     </div>
 </section>
 
@@ -589,19 +591,19 @@ background-size: cover;">
 <script src="{{ asset('js/countdowntime/countdowntime.js') }}"></script>
 
 <script>
-    $('.cd100').countdown100({
-        /*Set Endtime here*/
-        /*Endtime must be > current time*/
-        endtimeYear: 2019,
-        endtimeMonth: 6,
-        endtimeDate: 19,
-        endtimeHours: 10,
-        endtimeMinutes: 0,
-        endtimeSeconds: 0,
-        timeZone: "Asia/Jakarta"
-        // ex:  timeZone: "America/New_York"
-        //go to " http://momentjs.com/timezone/ " to get timezone
-    });
+    // $('.cd100').countdown100({
+    //     /*Set Endtime here*/
+    //     /*Endtime must be > current time*/
+    //     endtimeYear: 2019,
+    //     endtimeMonth: 6,
+    //     endtimeDate: 19,
+    //     endtimeHours: 10,
+    //     endtimeMinutes: 0,
+    //     endtimeSeconds: 0,
+    //     timeZone: "Asia/Jakarta"
+    //     // ex:  timeZone: "America/New_York"
+    //     //go to " http://momentjs.com/timezone/ " to get timezone
+    // });
 </script>
 </body>
 </html>
