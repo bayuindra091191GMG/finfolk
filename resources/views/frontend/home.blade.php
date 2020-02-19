@@ -106,7 +106,7 @@
     @media (min-width: 1800px) {
 
         .img-banner-responsive{
-            height: 1070px;
+            height: 1430px;
         }
     }
 </style>
@@ -115,7 +115,7 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-02.jpg') }});
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/banner-desktop.jpg') }});
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: cover;">
@@ -129,7 +129,7 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-14.jpg') }});
+                <div class="w-100" style="background-image: url({{ asset('images/finfolk/banner-mobile.jpg') }});
 					background-repeat: no-repeat;
 					background-position: center;
                     background-size: cover;
@@ -175,23 +175,23 @@
                 <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:9px;">Digital Handout</p>
             </div>
             <div class="col-2 text-center custom-border-right-desktop">
-                <img src="{{ asset('images/finfolk/finfolk-website-07.png') }}" alt="harusnya lunch with speakers" width="110px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:0px;">Lunch with <br/>Speakers</p>
+                <img src="{{ asset('images/finfolk/finfolk-lunch-white.png') }}" alt="lunch" width="110px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:15px;">Lunch</p>
             </div>
             <div class="col-2 text-center custom-border-right-desktop">
-                <img src="{{ asset('images/finfolk/finfolk-website-08.png') }}" alt="harusnya private gathering" width="100px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:0px;">Salt Venture<br/> Private<br/> Gathering</p>
+                <img src="{{ asset('images/finfolk/finfolk-website-08.png') }}" alt="salt venture gathering" width="100px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:0px;">Salt Venture<br/> Gathering</p>
             </div>
             <div class="col-2 text-center custom-border-right-desktop">
-                <img src="{{ asset('images/finfolk/finfolk-website-09.png') }}" alt="harusnya voucher" width="100px" class="mt-3">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:28px;">Land X Voucher<br/> worth <br/>Rp 2.000.000</p>
+                <img src="{{ asset('images/finfolk/finfolk-planner-white.png') }}" alt="finfolk 2020 planner" width="80">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:5px;">Finfolk 2020<br/>Planner</p>
             </div>
             <div class="col-2 text-center">
-                <img src="{{ asset('images/finfolk/finfolk-website-15.png') }}" alt="harusnya voucher" width="100px" class="mt-3">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:28px;">Premium<br/> Audio <br/>Recording</p>
+                <img src="{{ asset('images/finfolk/finfolk-website-15.png') }}" alt="premium audio pack" width="100px" class="mt-3">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:28px;">Premium Audio <br/>Pack</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-12 text-center">
                 <div>
                     <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-13.png') }});
@@ -199,9 +199,9 @@
 							background-position: center;
 							background-size: contain;">
                         <div class="box h-100 d-flex justify-content-center flex-column">
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 40px;">SOLD OUT</span>
-{{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 2.500.000,-</span>--}}
-{{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">EARLY BIRD : Rp 2.250.000,-</span>--}}
+{{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 40px;">SOLD OUT</span>--}}
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 2.500.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">EARLY BIRD : Rp 2.250.000,-</span>
                         </div>
                     </div>
                 </div>
@@ -288,22 +288,22 @@
                 <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Digital Handout</p>
             </div>
             <div class="col-4 text-center">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-07.png') }}" alt="harusnya lunch with speakers" width="30px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:5px;">Lunch with <br/>Speakers</p>
+                <img src="{{ asset('images/finfolk/finfolk-lunch-white.png') }}" alt="lunch" width="40px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:5px;">Lunch</p>
             </div>
         </div>
         <div class="row px-3">
             <div class="col-4 text-center custom-border-right">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-08.png') }}" alt="harusnya private gathering" width="30px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:9px;">Salt Venture<br/> Private Gathering</p>
+                <img src="{{ asset('images/finfolk/mobile-finfolk-08.png') }}" alt="harusnya private gathering" width="40px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:9px;">Salt Venture<br/> Gathering</p>
             </div>
             <div class="col-4 text-center custom-border-right">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-09.png') }}" alt="harusnya voucher" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Land X Voucher<br/> worth Rp 2.000.000</p>
+                <img src="{{ asset('images/finfolk/finfolk-planner-white.png') }}" alt="finfolk planner 2020" width="40px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Finfolk 2020<br/>Planner</p>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-4 pt-3 text-center">
                 <img src="{{ asset('images/finfolk/mobile-finfolk-10.png') }}" alt="harusnya voucher" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Premium Audio<br/> Recording</p>
+                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Premium Audio<br/> Pack</p>
             </div>
         </div>
         <div class="row mb-5">
@@ -314,9 +314,9 @@
 							background-position: center;
 							background-size: contain;">
                         <div class="box h-100 d-flex justify-content-center flex-column">
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 25px;">SOLD OUT</span>
-{{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Rp 2.500.000,-</span>--}}
-{{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 2.250.000,-</span>--}}
+{{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 25px;">SOLD OUT</span>--}}
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Rp 2.500.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 2.250.000,-</span>
                         </div>
                     </div>
                 </div>
@@ -336,24 +336,20 @@
             </div>
         </div>
         <div class="row blue">
-            <div class="col-2"></div>
+            <div class="col-3"></div>
             <div class="col-2 text-center">
-                <img src="{{ asset('images/finfolk/finfolk-website-10.png') }}" alt="harusnya digital handout" width="100px">
+                <img src="{{ asset('images/finfolk/finfolk-website-10.png') }}" alt="digital handout" width="100px">
                 <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:9px;">Digital Handout</p>
             </div>
             <div class="col-2 text-center custom-border-left">
-                <img src="{{ asset('images/finfolk/finfolk-website-11.png') }}" alt="harusnya lunch with speakers" width="100px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:18px;">Lunch Buffet</p>
+                <img src="{{ asset('images/finfolk/finfolk-planner-blue.png') }}" alt="finfolk 2020 planner" width="80px">
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-1" style="margin-top:18px;">Finfolk 2020<br/>Planner</p>
             </div>
-            <div class="col-2 text-center custom-border-left">
-                <img src="{{ asset('images/finfolk/finfolk-website-12.png') }}" alt="harusnya voucher" width="120px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:28px;">Land X Voucher</p>
+            <div class="col-2 text-center custom-border-left pt-3">
+                <img src="{{ asset('images/finfolk/finfolk-website-16.png') }}" alt="premium audio pack" width="110px">
+                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:28px;">Premium Audio<br/>Pack</p>
             </div>
-            <div class="col-2 text-center custom-border-left">
-                <img src="{{ asset('images/finfolk/finfolk-website-16.png') }}" alt="harusnya voucher" width="120px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:28px;">Premium Audio<br/>Recording</p>
-            </div>
-            <div class="col-2"></div>
+            <div class="col-3"></div>
         </div>
         <div class="row mt-3">
             <div class="col-12 text-center">
@@ -363,7 +359,7 @@
 					background-size: contain;">
                     <div class="box h-100 d-flex justify-content-center flex-column">
                         <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 1.500.000,-</span>
-{{--                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 1.250.000,-</span>--}}
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 1.250.000,-</span>
                     </div>
                 </div>
             </div>
@@ -450,21 +446,17 @@
             </div>
         </div> --}}
         <div class="row blue">
-            <div class="col-3 text-center custom-border-right2">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-02.png') }}" alt="harusnya front seat" width="50px">
+            <div class="col-4 text-center custom-border-right2">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-02.png') }}" alt="digital handout" width="50px">
                 <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:5px;">Digital Handout</p>
             </div>
-            <div class="col-3 text-center custom-border-right2">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-03.png') }}" alt="harusnya digital handout" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:11px;">Lunch Buffet</p>
+            <div class="col-4 text-center custom-border-right2">
+                <img src="{{ asset('images/finfolk/finfolk-planner-blue.png') }}" alt="finfolk 2020 planner" width="40px">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:11px;">Finfolk 2020<br/>Planner</p>
             </div>
-            <div class="col-3 text-center custom-border-right2">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-04.png') }}" alt="harusnya lunch with speakers" width="50px"  style="margin-top: 9px;">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:12px;">Land X Voucher</p>
-            </div>
-            <div class="col-3 text-center">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-13.png') }}" alt="harusnya lunch with speakers" width="50px"  style="margin-top: 9px;">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:12px;">Premium Audio<br/>Recording</p>
+            <div class="col-4 pt-2 text-center">
+                <img src="{{ asset('images/finfolk/mobile-finfolk-13.png') }}" alt="premium audio pack" width="50px"  style="margin-top: 9px;">
+                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:12px;">Premium Audio<br/>Pack</p>
             </div>
         </div>
         <div class="row mt-3">
@@ -475,7 +467,7 @@
 					background-size: contain;">
                     <div class="box h-100 d-flex justify-content-center flex-column">
                         <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 1.500.000,-</span>
-{{--                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 1.250.000,-</span>--}}
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 1.250.000,-</span>
                     </div>
                 </div>
             </div>
@@ -501,39 +493,39 @@
                 <img src="{{ asset('images/finfolk/logo-finfolk-pc.png') }}" alt="harusnya logo finfolk pc" width="300px">
             </div>
         </div>
-{{--        <div class="row">--}}
-{{--            <div class="col-md-3"></div>--}}
-{{--            <div class="col-md-6 col-12 text-center">--}}
-{{--                <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">--}}
-{{--                    <div class="flex-col-c-b wsize2 m-b-20">--}}
-{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 days">35</span>--}}
-{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>--}}
-{{--                    </div>--}}
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 col-12 text-center">
+                <div class="flex-w flex-sa-m cd100 p-t-42 p-b-22 p-l-50 p-r-50 respon1">
+                    <div class="flex-col-c-b wsize2 m-b-20">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 days">35</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">DAYS</span>
+                    </div>
 
-{{--                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>--}}
+                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
-{{--                    <div class="flex-col-c-m wsize2 m-b-20">--}}
-{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 hours">17</span>--}}
-{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">HOURS</span>--}}
-{{--                    </div>--}}
+                    <div class="flex-col-c-m wsize2 m-b-20">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 hours">17</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">HOURS</span>
+                    </div>
 
-{{--                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>--}}
+                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
-{{--                    <div class="flex-col-c-m wsize2 m-b-20">--}}
-{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 minutes">50</span>--}}
-{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>--}}
-{{--                    </div>--}}
+                    <div class="flex-col-c-m wsize2 m-b-20">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 minutes">50</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">MINUTES</span>
+                    </div>
 
-{{--                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>--}}
+                    <span class="l1-txt2 p-b-22" style="padding-bottom: 73px;">:</span>
 
-{{--                    <div class="flex-col-c-m wsize2 m-b-20">--}}
-{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 seconds">39</span>--}}
-{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <div class="col-md-3"></div>--}}
-{{--        </div>--}}
+                    <div class="flex-col-c-m wsize2 m-b-20">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt2 p-b-4 seconds">39</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 20px;">SECONDS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
     </div>
 </section>
 
@@ -549,37 +541,37 @@
                 <img src="{{ asset('images/finfolk/logo-finfolk-mobile.png') }}" alt="harusnya logo finfolk mobile" width="250px">
             </div>
         </div>
-{{--        <div class="row mt-4">--}}
-{{--            <div class="col-12 text-center">--}}
-{{--                <div class="flex-w flex-sa-m cd100 p-t-42 p-l-50 p-r-50 respon1">--}}
-{{--                    <div class="flex-col-c-m m-b-20" style="width: 40px;">--}}
-{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 days" style="font-size: 40px;">35</span>--}}
-{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">DAYS</span>--}}
-{{--                    </div>--}}
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <div class="flex-w flex-sa-m cd100 p-t-42 p-l-50 p-r-50 respon1">
+                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 days" style="font-size: 40px;">35</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">DAYS</span>
+                    </div>
 
-{{--                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>--}}
+                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>
 
-{{--                    <div class="flex-col-c-m m-b-20" style="width: 40px;">--}}
-{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 hours" style="font-size: 40px;">17</span>--}}
-{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">HOURS</span>--}}
-{{--                    </div>--}}
+                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 hours" style="font-size: 40px;">17</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">HOURS</span>
+                    </div>
 
-{{--                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>--}}
+                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>
 
-{{--                    <div class="flex-col-c-m m-b-20" style="width: 40px;">--}}
-{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 minutes" style="font-size: 40px;">50</span>--}}
-{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">MINUTES</span>--}}
-{{--                    </div>--}}
+                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 minutes" style="font-size: 40px;">50</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">MINUTES</span>
+                    </div>
 
-{{--                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>--}}
+                    <span class="l1-txt1" style="padding-bottom: 53px;">:</span>
 
-{{--                    <div class="flex-col-c-m m-b-20" style="width: 40px;">--}}
-{{--                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 seconds" style="font-size: 40px;">39</span>--}}
-{{--                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">SECONDS</span>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
+                    <div class="flex-col-c-m m-b-20" style="width: 40px;">
+                        <span class="font-custom-titillium-semi-bold-upright l1-txt1 p-b-4 seconds" style="font-size: 40px;">39</span>
+                        <span class="font-custom-titillium-regular-upright m2-txt2" style="padding-top: 3px; font-size: 12px;">SECONDS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -591,19 +583,19 @@
 <script src="{{ asset('js/countdowntime/countdowntime.js') }}"></script>
 
 <script>
-    // $('.cd100').countdown100({
-    //     /*Set Endtime here*/
-    //     /*Endtime must be > current time*/
-    //     endtimeYear: 2019,
-    //     endtimeMonth: 6,
-    //     endtimeDate: 19,
-    //     endtimeHours: 10,
-    //     endtimeMinutes: 0,
-    //     endtimeSeconds: 0,
-    //     timeZone: "Asia/Jakarta"
-    //     // ex:  timeZone: "America/New_York"
-    //     //go to " http://momentjs.com/timezone/ " to get timezone
-    // });
+    $('.cd100').countdown100({
+        /*Set Endtime here*/
+        /*Endtime must be > current time*/
+        endtimeYear: 2020,
+        endtimeMonth: 4,
+        endtimeDate: 25,
+        endtimeHours: 0,
+        endtimeMinutes: 0,
+        endtimeSeconds: 0,
+        timeZone: "Asia/Jakarta"
+        // ex:  timeZone: "America/New_York"
+        //go to " http://momentjs.com/timezone/ " to get timezone
+    });
 </script>
 </body>
 </html>
