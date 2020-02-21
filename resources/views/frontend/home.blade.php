@@ -25,7 +25,7 @@
     }
 
     .img-early-bird-responsive{
-        height: 70px;
+        height: 100px;
     }
 
     .bold{
@@ -99,7 +99,7 @@
         }
 
         .img-early-bird-responsive{
-            height: 110px;
+            height: 130px;
         }
     }
 
@@ -140,22 +140,22 @@
     </div>
 </section>
     {{-- banner mobile end --}}
-<section>
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
-            <div class="col-12">
+{{--<section>--}}
+{{--    <div class="container-fluid p-0">--}}
+{{--        <div class="row no-gutters">--}}
+{{--            <div class="col-12">--}}
 {{--                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/vid-dummy.png') }});--}}
 {{--					background-repeat: no-repeat;--}}
 {{--					background-position: center;--}}
 {{--					background-size: cover;">--}}
 {{--                </div>--}}
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/E6yBFeliWv4')}}" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+{{--                <div class="embed-responsive embed-responsive-16by9">--}}
+{{--                    <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/E6yBFeliWv4')}}" frameborder="0" allowfullscreen></iframe>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 <section class="d-none d-md-block pb-4" style="background-color: #29292d;">
     <div class="container-fluid">
         <div class="row mb-2">
@@ -200,8 +200,8 @@
 							background-size: contain;">
                         <div class="box h-100 d-flex justify-content-center flex-column">
 {{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 40px;">SOLD OUT</span>--}}
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 2.500.000,-</span>
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">EARLY BIRD : Rp 2.250.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 2.750.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Early Bird Before 23rd March : Rp 2.400.000,-</span>
                         </div>
                     </div>
                 </div>
@@ -315,8 +315,8 @@
 							background-size: contain;">
                         <div class="box h-100 d-flex justify-content-center flex-column">
 {{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 25px;">SOLD OUT</span>--}}
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Rp 2.500.000,-</span>
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 2.250.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 2.750.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Early Bird Before 23rd March : Rp 2.400.000,-</span>
                         </div>
                     </div>
                 </div>
@@ -358,8 +358,8 @@
 					background-position: center;
 					background-size: contain;">
                     <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 1.500.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 1.250.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 1.400.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Early Bird Before 23rd March : Rp 1.250.000,-</span>
                     </div>
                 </div>
             </div>
@@ -367,7 +367,7 @@
         <div class="row">
             <div class="col-12 text-center blue mt-5">
                 <span style="font-size: 20px;">Book by Whats app: </span>
-                <span class="font-weight-bold" style ="font-size: 20px;">081288822284</span>
+                <span class="font-weight-bold" style ="font-size: 20px;">0877 1091 9015</span>
             </div>
         </div>
     </div>
@@ -466,15 +466,15 @@
 					background-position: center;
 					background-size: contain;">
                     <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 1.500.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">EARLY BIRD : Rp 1.250.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 1.400.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Early Bird Before 23rd March : Rp 1.250.000,-</span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-12 text-center blue mt-5">
-                <p class="font-custom-titillium-regular-upright" style="font-size: 20px;">Book by Whats app : <b>081288822284</b></p>
+                <p class="font-custom-titillium-regular-upright" style="font-size: 20px;">Book by Whats app : <b>0877 1091 9015</b></p>
             </div>
         </div>
     </div>
