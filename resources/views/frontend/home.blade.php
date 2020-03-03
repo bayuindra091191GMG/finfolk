@@ -106,7 +106,7 @@
     @media (min-width: 1800px) {
 
         .img-banner-responsive{
-            height: 1430px;
+            height: 1050px;
         }
     }
 </style>
@@ -115,7 +115,7 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/banner-desktop.jpg') }});
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_01.jpg') }});
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: cover;">
@@ -124,14 +124,69 @@
         </div>
     </div>
 </section>
-    {{-- banner mobile start --}}
 <section class="d-block d-md-none">
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100" style="background-image: url({{ asset('images/finfolk/banner-mobile.jpg') }});
+                <div class="w-100" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_01.jpg') }});
 					background-repeat: no-repeat;
 					background-position: center;
+                    background-size: cover;
+                    height: 669px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="d-none d-md-block">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_02.jpg') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d-block d-md-none">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_02.jpg') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 669px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="d-none d-md-block">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_03.jpg') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d-block d-md-none">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_03.jpg') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
                     background-size: cover;
                     height: 669px;">
                 </div>
@@ -156,6 +211,35 @@
 {{--        </div>--}}
 {{--    </div>--}}
 {{--</section>--}}
+
+<section class="d-none d-md-block">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_04.jpg') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d-block d-md-none">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_04.jpg') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 669px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="d-none d-md-block pb-4" style="background-color: #29292d;">
     <div class="container-fluid">
         <div class="row mb-2">
