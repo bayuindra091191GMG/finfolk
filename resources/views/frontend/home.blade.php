@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/util.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/main.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/frontend/custom-font.css') }}">
 </head>
 <style>
@@ -86,6 +87,11 @@
         color: #fff;
     }
 
+    .galleries img{
+        width: 100%;
+        height: auto;
+    }
+
     @media (min-width: 768px) {
 
         .img-banner-responsive{
@@ -100,6 +106,11 @@
 
         .img-early-bird-responsive{
             height: 130px;
+        }
+
+        .galleries img{
+            width: initial;
+            height: auto;
         }
     }
 
@@ -167,6 +178,23 @@
     </div>
 </section>
 
+<section>
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                {{--                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/vid-dummy.png') }});--}}
+                {{--					background-repeat: no-repeat;--}}
+                {{--					background-position: center;--}}
+                {{--					background-size: cover;">--}}
+                {{--                </div>--}}
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/eRvqVuMdf_0')}}" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="d-none d-md-block">
     <div class="container-fluid p-0">
         <div class="row no-gutters">
@@ -194,58 +222,74 @@
         </div>
     </div>
 </section>
-    {{-- banner mobile end --}}
-{{--<section>--}}
+
+{{--<section class="d-none d-md-block">--}}
 {{--    <div class="container-fluid p-0">--}}
 {{--        <div class="row no-gutters">--}}
 {{--            <div class="col-12">--}}
-{{--                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/vid-dummy.png') }});--}}
-{{--					background-repeat: no-repeat;--}}
-{{--					background-position: center;--}}
-{{--					background-size: cover;">--}}
+{{--                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_04.jpg') }});--}}
+{{--                    background-repeat: no-repeat;--}}
+{{--                    background-position: center;--}}
+{{--                    background-size: cover;">--}}
 {{--                </div>--}}
-{{--                <div class="embed-responsive embed-responsive-16by9">--}}
-{{--                    <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/E6yBFeliWv4')}}" frameborder="0" allowfullscreen></iframe>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
+{{--<section class="d-block d-md-none">--}}
+{{--    <div class="container-fluid p-0">--}}
+{{--        <div class="row no-gutters">--}}
+{{--            <div class="col-12">--}}
+{{--                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_04.jpg') }});--}}
+{{--                    background-repeat: no-repeat;--}}
+{{--                    background-position: center;--}}
+{{--                    background-size: cover;--}}
+{{--                    height: 669px;">--}}
 {{--                </div>--}}
 {{--            </div>--}}
 {{--        </div>--}}
 {{--    </div>--}}
 {{--</section>--}}
 
-<section class="d-none d-md-block">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_04.jpg') }});
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;">
-                </div>
+{{-- GALLERY --}}
+<section class="pb-5 mb-5">
+    <div class="container-fluid">
+        <div class="row blue mb-5">
+            <div class="col-12 text-center mt-5">
+                <h1 class="font-custom-titillium-semi-bold-upright" style="font-size: 60px;">Gallery</h1>
             </div>
         </div>
-    </div>
-</section>
-<section class="d-block d-md-none">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_04.jpg') }});
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;
-                    height: 669px;">
-                </div>
+        <div class="row blue">
+            <div class="col-lg-3 col-6 text-center mb-3 mb-md-0">
+                <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_01.jpg') }}">
+                    <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_01.jpg') }}" alt="gallery 1">
+                </a>
+            </div>
+            <div class="col-lg-3 col-6 text-center mb-3 mb-md-0">
+                <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_02.jpg') }}">
+                    <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_02.jpg') }}" alt="gallery 2">
+                </a>
+            </div>
+            <div class="col-lg-3 col-6 text-center">
+                <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_03.jpg') }}">
+                    <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_03.jpg') }}" alt="gallery 3">
+                </a>
+            </div>
+            <div class="col-lg-3 col-6 text-center">
+                <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_04.jpg') }}">
+                    <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_04.jpg') }}" alt="gallery 4">
+                </a>
             </div>
         </div>
     </div>
 </section>
 
-<section class="d-none d-md-block pb-4" style="background-color: #29292d;">
+<section class="d-none d-md-block pb-4" style="background-color: #1b287b;">
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-12 text-center mt-5">
-                <p class="font-custom-titillium-semi-bold-upright font-color-light-red" style="font-size: 50px;">VIP Seat</p>
-                <p class="font-custom-titillium-semi-bold-upright font-color-light-red pb-3"style="font-size: 20px;">limited for 30 persons</p>
+                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 50px; color: #fc1b73;">VIP Seat</p>
+                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px; color: #fc1b73;">limited for 30 persons</p>
                 <p class="font-custom-titillium-semi-bold-upright text-white pb-3" style="font-size: 20px;">Benefit VIP</p>
             </div>
         </div>
@@ -278,14 +322,14 @@
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <div>
-                    <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-13.png') }});
-							background-repeat: no-repeat;
-							background-position: center;
-							background-size: contain;">
+                    <div class="img-early-bird-responsive" style="background-color: #fff;
+                            border-radius: 60px;
+                            margin: 0 auto;
+                            width: 24%;">
                         <div class="box h-100 d-flex justify-content-center flex-column">
 {{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 40px;">SOLD OUT</span>--}}
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 2.750.000,-</span>
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Early Bird Before 23rd March : Rp 2.400.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px; color: #1b287b;">Rp 2.750.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 20px; color: #1b287b;">Early Bird Before 23rd March : Rp 2.400.000,-</span>
                         </div>
                     </div>
                 </div>
@@ -353,12 +397,12 @@
     </div>
 </section> --}}
 
-<section class="d-block d-md-none pb-4" style="background-color: #29292d;">
+<section class="d-block d-md-none pb-4" style="background-color: #1b287b;">
     <div class="container-fluid">
         <div class="row px-3">
             <div class="col-12 text-center mt-5">
-                <p class="font-custom-titillium-semi-bold-upright font-color-light-red" style="font-size: 50px;">VIP Seat</p>
-                <p class="font-custom-titillium-semi-bold-upright font-color-light-red pb-3"style="font-size: 20px;">limited for 30 persons</p>
+                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 50px; color: #fc1b73;">VIP Seat</p>
+                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px; color: #fc1b73;">limited for 30 persons</p>
                 <p class="font-custom-titillium-semi-bold-upright text-white pb-5" style="font-size: 20px;">Benefit VIP</p>
             </div>
         </div>
@@ -393,14 +437,14 @@
         <div class="row mb-5">
             <div class="col-12 text-center">
                 <div>
-                    <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-11.png') }});
-							background-repeat: no-repeat;
-							background-position: center;
-							background-size: contain;">
+                    <div class="img-early-bird-responsive" style="background-color: #fff;
+                            border-radius: 50px;
+                            margin: 0 auto;
+                            width: 90%;">
                         <div class="box h-100 d-flex justify-content-center flex-column">
 {{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 25px;">SOLD OUT</span>--}}
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 2.750.000,-</span>
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Early Bird Before 23rd March : Rp 2.400.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 20px; color: #1b287b">Rp 2.750.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 14px; color: #1b287b">Early Bird Before 23rd March : Rp 2.400.000,-</span>
                         </div>
                     </div>
                 </div>
@@ -442,8 +486,8 @@
 					background-position: center;
 					background-size: contain;">
                     <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 1.400.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Early Bird Before 23rd March : Rp 1.250.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 1.750.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Early Bird Before 23rd March : Rp 1.400.000,-</span>
                     </div>
                 </div>
             </div>
@@ -550,8 +594,8 @@
 					background-position: center;
 					background-size: contain;">
                     <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 1.400.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Early Bird Before 23rd March : Rp 1.250.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 1.750.000,-</span>
+                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Early Bird Before 23rd March : Rp 1.400.000,-</span>
                     </div>
                 </div>
             </div>
@@ -661,12 +705,15 @@
 
 <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="{{ asset('js/countdowntime/moment.min.js') }}"></script>
 <script src="{{ asset('js/countdowntime/moment-timezone.min.js') }}"></script>
 <script src="{{ asset('js/countdowntime/moment-timezone-with-data.min.js') }}"></script>
 <script src="{{ asset('js/countdowntime/countdowntime.js') }}"></script>
 
+
 <script>
+
     $('.cd100').countdown100({
         /*Set Endtime here*/
         /*Endtime must be > current time*/
