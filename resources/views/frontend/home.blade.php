@@ -26,7 +26,7 @@
     }
 
     .img-early-bird-responsive{
-        height: 100px;
+        height: 70px;
     }
 
     .bold{
@@ -105,11 +105,11 @@
         }
 
         .img-early-bird-responsive{
-            height: 130px;
+            height: 100px;
         }
 
         .galleries img{
-            width: initial;
+            /*width: initial;*/
             height: auto;
         }
     }
@@ -126,7 +126,7 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_01.jpg') }});
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/june/finfolk_june_desktop_01.png') }});
 					background-repeat: no-repeat;
 					background-position: center;
 					background-size: cover;">
@@ -139,25 +139,27 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_01.jpg') }});
+                <div class="w-100" style="background-image: url({{ asset('images/finfolk/june/finfolk_june_mobile_01.png') }});
 					background-repeat: no-repeat;
 					background-position: center;
                     background-size: cover;
-                    height: 669px;">
+                    height: 650px;">
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+{{--DISRUPTING THE NEXT DECADE--}}
 <section class="d-none d-md-block">
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_02.jpg') }});
+                <div class="w-100" style="background-image: url({{ asset('images/finfolk/june/finfolk_june_desktop_02.png') }});
                     background-repeat: no-repeat;
                     background-position: center;
-                    background-size: cover;">
+                    background-size: cover;
+                    height: 4000px;">
                 </div>
             </div>
         </div>
@@ -167,11 +169,71 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_02.jpg') }});
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/june/finfolk_june_mobile_02.png') }});
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;
-                    height: 669px;">
+                    height: 1800px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{--SPEAKERS LINE UP--}}
+<section class="d-none d-md-block">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100" style="background-image: url({{ asset('images/finfolk/june/finfolk_june_desktop_03.png') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 4200px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d-block d-md-none">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/june/finfolk_june_mobile_03.png') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 3400px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{--TICKET--}}
+<section class="d-none d-md-block">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100" style="background-image: url({{ asset('images/finfolk/june/finfolk_june_desktop_04.png') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 700px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d-block d-md-none">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/june/finfolk_june_mobile_04.png') }});
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    height: 660px;">
                 </div>
             </div>
         </div>
@@ -195,62 +257,6 @@
     </div>
 </section>
 
-<section class="d-none d-md-block">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_03.jpg') }});
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="d-block d-md-none">
-    <div class="container-fluid p-0">
-        <div class="row no-gutters">
-            <div class="col-12">
-                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_03.jpg') }});
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;
-                    height: 669px;">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-{{--<section class="d-none d-md-block">--}}
-{{--    <div class="container-fluid p-0">--}}
-{{--        <div class="row no-gutters">--}}
-{{--            <div class="col-12">--}}
-{{--                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_desktop_04.jpg') }});--}}
-{{--                    background-repeat: no-repeat;--}}
-{{--                    background-position: center;--}}
-{{--                    background-size: cover;">--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</section>--}}
-{{--<section class="d-block d-md-none">--}}
-{{--    <div class="container-fluid p-0">--}}
-{{--        <div class="row no-gutters">--}}
-{{--            <div class="col-12">--}}
-{{--                <div class="w-100 img-banner-responsive" style="background-image: url({{ asset('images/finfolk/finfolk_new_mobile_04.jpg') }});--}}
-{{--                    background-repeat: no-repeat;--}}
-{{--                    background-position: center;--}}
-{{--                    background-size: cover;--}}
-{{--                    height: 669px;">--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</section>--}}
-
 {{-- GALLERY --}}
 <section class="pb-5 mb-5">
     <div class="container-fluid">
@@ -261,353 +267,395 @@
         </div>
         <div class="row blue">
             <div class="col-lg-3 col-6 text-center mb-3 mb-md-0">
-                <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_01.jpg') }}">
-                    <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_01.jpg') }}" alt="gallery 1">
-                </a>
+                <div class="mx-3">
+                    <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_01.jpg') }}">
+                        <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_01.jpg') }}" alt="gallery 1">
+                    </a>
+                </div>
             </div>
             <div class="col-lg-3 col-6 text-center mb-3 mb-md-0">
-                <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_02.jpg') }}">
-                    <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_02.jpg') }}" alt="gallery 2">
-                </a>
+                <div class="mx-3">
+                    <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_02.jpg') }}">
+                        <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_02.jpg') }}" alt="gallery 2">
+                    </a>
+                </div>
             </div>
             <div class="col-lg-3 col-6 text-center">
-                <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_03.jpg') }}">
-                    <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_03.jpg') }}" alt="gallery 3">
-                </a>
+                <div class="mx-3">
+                    <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_03.jpg') }}">
+                        <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_03.jpg') }}" alt="gallery 3">
+                    </a>
+                </div>
             </div>
             <div class="col-lg-3 col-6 text-center">
-                <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_04.jpg') }}">
-                    <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_04.jpg') }}" alt="gallery 4">
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="d-none d-md-block pb-4" style="background-color: #1b287b;">
-    <div class="container-fluid">
-        <div class="row mb-2">
-            <div class="col-12 text-center mt-5">
-                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 50px; color: #fc1b73;">VIP Seat</p>
-                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px; color: #fc1b73;">limited for 30 persons</p>
-                <p class="font-custom-titillium-semi-bold-upright text-white pb-3" style="font-size: 20px;">Benefit VIP</p>
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-2 text-center custom-border-right-desktop">
-                <img src="{{ asset('images/finfolk/finfolk-website-05.png') }}" alt="harusnya front seat" width="110px" class="mt-3">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:31px;">Front Seat</p>
-            </div>
-            <div class="col-2 text-center custom-border-right-desktop">
-                <img src="{{ asset('images/finfolk/finfolk-website-06.png') }}" alt="harusnya digital handout" width="110px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:9px;">Digital Handout</p>
-            </div>
-            <div class="col-2 text-center custom-border-right-desktop">
-                <img src="{{ asset('images/finfolk/finfolk-lunch-white.png') }}" alt="lunch" width="110px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:15px;">Lunch</p>
-            </div>
-            <div class="col-2 text-center custom-border-right-desktop">
-                <img src="{{ asset('images/finfolk/finfolk-website-08.png') }}" alt="salt venture gathering" width="100px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:0px;">Salt Venture<br/> Gathering</p>
-            </div>
-            <div class="col-2 text-center custom-border-right-desktop">
-                <img src="{{ asset('images/finfolk/finfolk-planner-white.png') }}" alt="finfolk 2020 planner" width="80">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:5px;">Finfolk 2020<br/>Planner</p>
-            </div>
-            <div class="col-2 text-center">
-                <img src="{{ asset('images/finfolk/finfolk-website-15.png') }}" alt="premium audio pack" width="100px" class="mt-3">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:28px;">Premium Audio <br/>Pack</p>
-            </div>
-        </div>
-        <div class="row mb-5">
-            <div class="col-12 text-center">
-                <div>
-                    <div class="img-early-bird-responsive" style="background-color: #fff;
-                            border-radius: 60px;
-                            margin: 0 auto;
-                            width: 24%;">
-                        <div class="box h-100 d-flex justify-content-center flex-column">
-{{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 40px;">SOLD OUT</span>--}}
-                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px; color: #1b287b;">Rp 2.750.000,-</span>
-                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 20px; color: #1b287b;">Early Bird Before 23rd March : Rp 2.400.000,-</span>
-                        </div>
-                    </div>
+                <div class="mx-3">
+                    <a data-fancybox="gallery" class="galleries" href="{{ asset('images/finfolk/finfolk_gallery_04.jpg') }}">
+                        <img src="{{ asset('images/finfolk/finfolk_gallery_thumbnail_04.jpg') }}" alt="gallery 4">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- VIP mobile start -->
-
-{{-- <section class="d-block d-md-none pb-5" style="background-image: url({{ asset('images/finfolk/mobile-finfolk-03.jpg') }});
-	        background-repeat: no-repeat;
-	        background-position: center;
-            background-size: cover;">
+{{--ZOOM--}}
+<section class="d-none d-md-block py-5" style="background-color: #f2f2f2">
     <div class="container-fluid">
-        <div class="row mb-5">
-            <div class="col-12 text-center mt-5">
-                <p class="font-custom-titillium-semi-bold-upright font-color-light-red" style="font-size: 40px;">VIP Seat</p>
-                <p class="font-custom-titillium-semi-bold-upright font-color-light-red mb-4" style="font-size: 20px;">limited for 30 persons</p>
-                <p class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Benefit VIP</p>
+        <div class="row blue my-4">
+            <div class="col-12 text-center">
+                <h1 class="font-custom-titillium-semi-bold-upright" style="font-size: 60px;">2 Days Online Conference</h1>
+                <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px;">18 & 19 July 2020</span><br/><br/>
+            </div>
+            <div class="col-12 text-center">
+                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 28px;">LIVE ON  <img src="{{ asset('images/finfolk/june/finfolk_june_zoom.png') }}" class="pb-3" style="height: 50px; width: auto;"></p>
             </div>
         </div>
-        <div class="row mb-5">
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-05.png') }}" alt="harusnya front seat" width="90px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Front Seat</p>
-                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #fff;width: 40%;"/>
+    </div>
+</section>
+<section class="d-block d-md-none py-5" style="background-color: #f2f2f2">
+    <div class="container-fluid">
+        <div class="row blue my-4">
+            <div class="col-12 text-center">
+                <h1 class="font-custom-titillium-semi-bold-upright" style="font-size: 30px;">2 Days Online Conference</h1>
+                <span class="font-custom-titillium-semi-bold-upright" style="font-size: 16px;">18 & 19 July 2020</span><br/><br/>
             </div>
-            <div class=" col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-06.png') }}" alt="harusnya digital handout" width="70px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Digital Handout</p>
-                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #fff;width: 40%;"/>
+            <div class="col-12 text-center">
+                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 16px;">LIVE ON  <img src="{{ asset('images/finfolk/june/finfolk_june_zoom.png') }}" class="pb-1" style="height: 30px; width: auto;"></p>
             </div>
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-07.png') }}" alt="harusnya lunch with speakers" width="70px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Lunch with Speakers</p>
-                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #fff;width: 40%;"/>
+        </div>
+    </div>
+</section>
+
+{{--RUNDOWN--}}
+<section class="d-none d-md-block pb-4" style="background-color: #0132a9;">
+    <div class="container-fluid">
+        <div class="row mb-3">
+            <div class="col-12 text-center mt-5">
+                <p class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 50px;">Rundown</p>
             </div>
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-08.png') }}" alt="harusnya private gathering" width="70px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Salt Venture Private<br/> Gathering</p>
-                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #fff;width: 40%;"/>
+        </div>
+        <div class="row mb-5 font-custom-titillium-regular" style="font-size: 18px;">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-4" style="border-right: 1px solid #fff;">
+                <div class="row text-white">
+                    <div class="col-lg-4">
+                        <span class="font-weight-bold">18 July</span><br/>
+                        <span>10.00 - 10.45</span><br/>
+                        <span>11.00 - 11.45</span><br/>
+                        <span>13.00 - 13.45</span>
+                    </div>
+                    <div class="col-lg-8">
+                        <br/>
+                        <span>: Danny Sutradewa</span><br/>
+                        <span>: David Tjokro</span><br/>
+                        <span>: Dennis Hadi</span>
+                    </div>
+                </div>
+                <br/>
             </div>
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-09.png') }}" alt="harusnya voucher" width="90px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit-mobile text-white">Land X Voucher<br/> worth Rp 2.000.000</p>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4">
+                <div class="row text-white">
+                    <div class="col-lg-4">
+                        <span class="font-weight-bold">19 July</span><br/>
+                        <span>10.00 - 10.45</span><br/>
+                        <span>11.00 - 11.45</span><br/>
+                        <span>13.00 - 13.45</span><br/>
+                        <span>14.00 - 14.35</span>
+                    </div>
+                    <div class="col-lg-8">
+                        <br/>
+                        <span>: Danny Sutradewa</span><br/>
+                        <span>: David Tjokro</span><br/>
+                        <span>: Dennis Hadi</span><br/>
+                        <span>: Pamela Wirjadinata & Monica Tan</span>
+                    </div>
+                </div>
+                <br/>
             </div>
+            <div class="col-lg-1"></div>
         </div>
         <div class="row mb-4">
             <div class="col-12 text-center">
                 <div>
-                    <div style="background-image: url({{ asset('images/finfolk/finfolk-website-13.png') }});
-	                    background-repeat: no-repeat;
-	                    background-position: center;
-                        background-size: contain;
-                        height: 100px;">
+                    <div class="img-early-bird-responsive" style="background-color: #fff;
+                            border-radius: 40px;
+                            margin: 0 auto;
+                            width: 18%;">
                         <div class="box h-100 d-flex justify-content-center flex-column">
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Rp 2.500.000,-</span>
-                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 2.250.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 20px; color: #1b287b;">Registration</span>
+                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 20px; color: #1b287b;">Rp 350.000,-</span>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-<section class="d-block d-md-none pb-4" style="background-color: #1b287b;">
-    <div class="container-fluid">
-        <div class="row px-3">
-            <div class="col-12 text-center mt-5">
-                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 50px; color: #fc1b73;">VIP Seat</p>
-                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px; color: #fc1b73;">limited for 30 persons</p>
-                <p class="font-custom-titillium-semi-bold-upright text-white pb-5" style="font-size: 20px;">Benefit VIP</p>
-            </div>
-        </div>
-        <div class="row px-3" style="margin-bottom: -25px;">
-            <div class="col-4 text-center custom-border-right">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-05.png') }}" alt="harusnya front seat" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:9px;">Front Seat</p>
-            </div>
-            <div class="col-4 text-center custom-border-right">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-06.png') }}" alt="harusnya digital handout" width="30px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Digital Handout</p>
-            </div>
-            <div class="col-4 text-center">
-                <img src="{{ asset('images/finfolk/finfolk-lunch-white.png') }}" alt="lunch" width="40px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:5px;">Lunch</p>
-            </div>
-        </div>
-        <div class="row px-3">
-            <div class="col-4 text-center custom-border-right">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-08.png') }}" alt="harusnya private gathering" width="40px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:9px;">Salt Venture<br/> Gathering</p>
-            </div>
-            <div class="col-4 text-center custom-border-right">
-                <img src="{{ asset('images/finfolk/finfolk-planner-white.png') }}" alt="finfolk planner 2020" width="40px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Finfolk 2020<br/>Planner</p>
-            </div>
-            <div class="col-4 pt-3 text-center">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-10.png') }}" alt="harusnya voucher" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Premium Audio<br/> Pack</p>
             </div>
         </div>
         <div class="row mb-5">
             <div class="col-12 text-center">
+                <p class="font-custom-titillium-regular text-white" style="font-size: 28px;">Book by Whats app : 0819 9188 8991</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="d-block d-md-none pb-4" style="background-color: #0132a9;">
+    <div class="container-fluid">
+        <div class="row mb-3">
+            <div class="col-12 text-center mt-5">
+                <p class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 30px;">Rundown</p>
+            </div>
+        </div>
+        <div class="row font-custom-titillium-regular text-white pb-4" style="font-size: 12px;">
+            <div class="col-4">
+                <span class="font-weight-bold">18 July</span><br/>
+                <span>10.00 - 10.45</span><br/>
+                <span>11.00 - 11.45</span><br/>
+                <span>13.00 - 13.45</span>
+            </div>
+            <div class="col-8">
+                <br/>
+                <span>: Danny Sutradewa</span><br/>
+                <span>: David Tjokro</span><br/>
+                <span>: Dennis Hadi</span>
+            </div>
+        </div>
+        <div class="row font-custom-titillium-regular text-white pb-4" style="font-size: 12px;">
+            <div class="col-4">
+                <span class="font-weight-bold">19 July</span><br/>
+                <span>10.00 - 10.45</span><br/>
+                <span>11.00 - 11.45</span><br/>
+                <span>13.00 - 13.45</span><br/>
+                <span>14.00 - 14.35</span>
+            </div>
+            <div class="col-8">
+                <br/>
+                <span>: Danny Sutradewa</span><br/>
+                <span>: David Tjokro</span><br/>
+                <span>: Dennis Hadi</span><br/>
+                <span>: Pamela Wirjadinata & Monica Tan</span>
+                </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-12 text-center">
                 <div>
                     <div class="img-early-bird-responsive" style="background-color: #fff;
-                            border-radius: 50px;
+                            border-radius: 40px;
                             margin: 0 auto;
-                            width: 90%;">
+                            width: 50%;">
                         <div class="box h-100 d-flex justify-content-center flex-column">
-{{--                            <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 25px;">SOLD OUT</span>--}}
-                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 20px; color: #1b287b">Rp 2.750.000,-</span>
-                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 14px; color: #1b287b">Early Bird Before 23rd March : Rp 2.400.000,-</span>
+                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 16px; color: #1b287b;">Registration</span>
+                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 16px; color: #1b287b;">Rp 350.000,-</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <p class="font-custom-titillium-regular text-white" style="font-size: 20px;">Book by Whats app : 0819 9188 8991</p>
+            </div>
+        </div>
     </div>
 </section>
+
+{{--<section class="d-none d-md-block pb-4" style="background-color: #1b287b;">--}}
+{{--    <div class="container-fluid">--}}
+{{--        <div class="row mb-2">--}}
+{{--            <div class="col-12 text-center mt-5">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 50px; color: #fc1b73;">VIP Seat</p>--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px; color: #fc1b73;">limited for 30 persons</p>--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright text-white pb-3" style="font-size: 20px;">Benefit VIP</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row mb-3">--}}
+{{--            <div class="col-2 text-center custom-border-right-desktop">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-website-05.png') }}" alt="harusnya front seat" width="110px" class="mt-3">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:31px;">Front Seat</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-2 text-center custom-border-right-desktop">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-website-06.png') }}" alt="harusnya digital handout" width="110px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:9px;">Digital Handout</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-2 text-center custom-border-right-desktop">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-lunch-white.png') }}" alt="lunch" width="110px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:15px;">Lunch</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-2 text-center custom-border-right-desktop">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-website-08.png') }}" alt="salt venture gathering" width="100px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:0px;">Salt Venture<br/> Gathering</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-2 text-center custom-border-right-desktop">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-planner-white.png') }}" alt="finfolk 2020 planner" width="80">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:5px;">Finfolk 2020<br/>Planner</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-2 text-center">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-website-15.png') }}" alt="premium audio pack" width="100px" class="mt-3">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit" style="margin-top:28px;">Premium Audio <br/>Pack</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row mb-5">--}}
+{{--            <div class="col-12 text-center">--}}
+{{--                <div>--}}
+{{--                    <div class="img-early-bird-responsive" style="background-color: #fff;--}}
+{{--                            border-radius: 60px;--}}
+{{--                            margin: 0 auto;--}}
+{{--                            width: 24%;">--}}
+{{--                        <div class="box h-100 d-flex justify-content-center flex-column">--}}
+{{--                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px; color: #1b287b;">Rp 2.750.000,-</span>--}}
+{{--                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 20px; color: #1b287b;">Early Bird Before 23rd March : Rp 2.400.000,-</span>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
+
+{{--<section class="d-block d-md-none pb-4" style="background-color: #1b287b;">--}}
+{{--    <div class="container-fluid">--}}
+{{--        <div class="row px-3">--}}
+{{--            <div class="col-12 text-center mt-5">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 50px; color: #fc1b73;">VIP Seat</p>--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px; color: #fc1b73;">limited for 30 persons</p>--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright text-white pb-5" style="font-size: 20px;">Benefit VIP</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row px-3" style="margin-bottom: -25px;">--}}
+{{--            <div class="col-4 text-center custom-border-right">--}}
+{{--                <img src="{{ asset('images/finfolk/mobile-finfolk-05.png') }}" alt="harusnya front seat" width="50px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:9px;">Front Seat</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-4 text-center custom-border-right">--}}
+{{--                <img src="{{ asset('images/finfolk/mobile-finfolk-06.png') }}" alt="harusnya digital handout" width="30px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Digital Handout</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-4 text-center">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-lunch-white.png') }}" alt="lunch" width="40px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:5px;">Lunch</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row px-3">--}}
+{{--            <div class="col-4 text-center custom-border-right">--}}
+{{--                <img src="{{ asset('images/finfolk/mobile-finfolk-08.png') }}" alt="harusnya private gathering" width="40px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:9px;">Salt Venture<br/> Gathering</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-4 text-center custom-border-right">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-planner-white.png') }}" alt="finfolk planner 2020" width="40px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Finfolk 2020<br/>Planner</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-4 pt-3 text-center">--}}
+{{--                <img src="{{ asset('images/finfolk/mobile-finfolk-10.png') }}" alt="harusnya voucher" width="50px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 text-white font-size-benefit-mobile" style="margin-top:8px;">Premium Audio<br/> Pack</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row mb-5">--}}
+{{--            <div class="col-12 text-center">--}}
+{{--                <div>--}}
+{{--                    <div class="img-early-bird-responsive" style="background-color: #fff;--}}
+{{--                            border-radius: 50px;--}}
+{{--                            margin: 0 auto;--}}
+{{--                            width: 90%;">--}}
+{{--                        <div class="box h-100 d-flex justify-content-center flex-column">--}}
+{{--                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 20px; color: #1b287b">Rp 2.750.000,-</span>--}}
+{{--                            <span class="font-custom-titillium-semi-bold-upright" style="font-size: 14px; color: #1b287b">Early Bird Before 23rd March : Rp 2.400.000,-</span>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 <!-- VIP mobile end -->
 
-<section class="d-none d-md-block mb-5">
-    <div class="container-fluid">
-        <div class="row blue mb-5">
-            <div class="col-12 text-center mt-5">
-                <h1 class="font-custom-titillium-semi-bold-upright" style="font-size: 60px;">General Seat</h1>
-                <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px;">270 persons</span><br/><br/><br/>
-                <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px;">Benefit</span>
-            </div>
-        </div>
-        <div class="row blue">
-            <div class="col-3"></div>
-            <div class="col-2 text-center">
-                <img src="{{ asset('images/finfolk/finfolk-website-10.png') }}" alt="digital handout" width="100px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:9px;">Digital Handout</p>
-            </div>
-            <div class="col-2 text-center custom-border-left">
-                <img src="{{ asset('images/finfolk/finfolk-planner-blue.png') }}" alt="finfolk 2020 planner" width="80px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-1" style="margin-top:18px;">Finfolk 2020<br/>Planner</p>
-            </div>
-            <div class="col-2 text-center custom-border-left pt-3">
-                <img src="{{ asset('images/finfolk/finfolk-website-16.png') }}" alt="premium audio pack" width="110px">
-                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:28px;">Premium Audio<br/>Pack</p>
-            </div>
-            <div class="col-3"></div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-12 text-center">
-                <div class="img-early-bird-responsive" style="background-image: url('{{ asset('images/finfolk/finfolk-website-14.png') }}');
-					background-repeat: no-repeat;
-					background-position: center;
-					background-size: contain;">
-                    <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 1.750.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Early Bird Before 23rd March : Rp 1.400.000,-</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center blue mt-5">
-                <span style="font-size: 20px;">Book by Whats app: </span>
-                <span class="font-weight-bold" style ="font-size: 20px;">0877 1091 9015</span>
-            </div>
-        </div>
-    </div>
-</section>
+{{--<section class="d-none d-md-block mb-5">--}}
+{{--    <div class="container-fluid">--}}
+{{--        <div class="row blue mb-5">--}}
+{{--            <div class="col-12 text-center mt-5">--}}
+{{--                <h1 class="font-custom-titillium-semi-bold-upright" style="font-size: 60px;">General Seat</h1>--}}
+{{--                <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px;">270 persons</span><br/><br/><br/>--}}
+{{--                <span class="font-custom-titillium-semi-bold-upright" style="font-size: 28px;">Benefit</span>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row blue">--}}
+{{--            <div class="col-3"></div>--}}
+{{--            <div class="col-2 text-center">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-website-10.png') }}" alt="digital handout" width="100px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:9px;">Digital Handout</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-2 text-center custom-border-left">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-planner-blue.png') }}" alt="finfolk 2020 planner" width="80px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-1" style="margin-top:18px;">Finfolk 2020<br/>Planner</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-2 text-center custom-border-left pt-3">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-website-16.png') }}" alt="premium audio pack" width="110px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright font-size-benefit pt-2" style="margin-top:28px;">Premium Audio<br/>Pack</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-3"></div>--}}
+{{--        </div>--}}
+{{--        <div class="row mt-3">--}}
+{{--            <div class="col-12 text-center">--}}
+{{--                <div class="img-early-bird-responsive" style="background-image: url('{{ asset('images/finfolk/finfolk-website-14.png') }}');--}}
+{{--					background-repeat: no-repeat;--}}
+{{--					background-position: center;--}}
+{{--					background-size: contain;">--}}
+{{--                    <div class="box h-100 d-flex justify-content-center flex-column">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 28px;">Rp 1.750.000,-</span>--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Early Bird Before 23rd March : Rp 1.400.000,-</span>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-12 text-center blue mt-5">--}}
+{{--                <span style="font-size: 20px;">Book by Whats app: </span>--}}
+{{--                <span class="font-weight-bold" style ="font-size: 20px;">0877 1091 9015</span>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 
-<!-- Reguler mobile start -->
-{{-- <section class="d-block d-md-none mb-5">
-    <div class="container-fluid">
-        <div class="row blue mb-5">
-            <div class="col-12 text-center mt-5">
-                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 40px;">General Seat</p>
-                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px;">270 persons</p>
-                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 20px;">Benefit</p>
-            </div>
-        </div>
-        <div class="row blue">
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-10.png') }}" alt="harusnya digital handout" width="70px">
-                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Digital Handout</p>
-                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #000; width: 55%;"/>
-            </div>
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-11.png') }}" alt="harusnya lunch with speakers" width="70px">
-                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Lunch Buffet</p>
-                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #000;width: 55%;"/>
-            </div>
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/finfolk-website-12.png') }}" alt="harusnya voucher" width="90px">
-                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Land X Voucher</p>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-12 text-center">
-                <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-14.png') }});
-					background-repeat: no-repeat;
-					background-position: center;
-					background-size: contain;">
-                    <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">Rp 1.500.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 18px;">EARLY BIRD : Rp 1.250.000,-</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center blue mt-5">
-                <p class="font-custom-titillium-regular-upright" style="font-size: 20px;">Book by Whats app : <b>081288822284</b></p>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-<section class="d-block d-md-none mb-5">
-    <div class="container-fluid">
-        <div class="row blue mb-5">
-            <div class="col-12 text-center mt-5">
-                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 40px;">General Seat</p>
-                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px;">270 persons</p>
-                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 20px;">Benefit</p>
-            </div>
-        </div>
-        {{-- <div class="row blue">
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/mobile-finfolk-02.png') }}" alt="harusnya digital handout" width="70px">
-                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Digital Handout</p>
-                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #000; width: 55%;"/>
-            </div>
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/mobile-finfolk-03.png') }}" alt="harusnya lunch with speakers" width="70px">
-                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Lunch Buffet</p>
-                <hr class="mx-auto mt-4" style="border-bottom: 2px solid #000;width: 55%;"/>
-            </div>
-            <div class="col-12 text-center mb-4">
-                <img class="mb-3" src="{{ asset('images/finfolk/mobile-finfolk-04.png') }}" alt="harusnya voucher" width="90px">
-                <p class="font-custom-titillium-semi-bold-upright py-2 font-size-benefit-mobile">Land X Voucher</p>
-            </div>
-        </div> --}}
-        <div class="row blue">
-            <div class="col-4 text-center custom-border-right2">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-02.png') }}" alt="digital handout" width="50px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:5px;">Digital Handout</p>
-            </div>
-            <div class="col-4 text-center custom-border-right2">
-                <img src="{{ asset('images/finfolk/finfolk-planner-blue.png') }}" alt="finfolk 2020 planner" width="40px">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:11px;">Finfolk 2020<br/>Planner</p>
-            </div>
-            <div class="col-4 pt-2 text-center">
-                <img src="{{ asset('images/finfolk/mobile-finfolk-13.png') }}" alt="premium audio pack" width="50px"  style="margin-top: 9px;">
-                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:12px;">Premium Audio<br/>Pack</p>
-            </div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-12 text-center">
-                <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-14.png') }});
-					background-repeat: no-repeat;
-					background-position: center;
-					background-size: contain;">
-                    <div class="box h-100 d-flex justify-content-center flex-column">
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 1.750.000,-</span>
-                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Early Bird Before 23rd March : Rp 1.400.000,-</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center blue mt-5">
-                <p class="font-custom-titillium-regular-upright" style="font-size: 20px;">Book by Whats app : <b>0877 1091 9015</b></p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Reguler mobile end -->
+{{--<section class="d-block d-md-none mb-5">--}}
+{{--    <div class="container-fluid">--}}
+{{--        <div class="row blue mb-5">--}}
+{{--            <div class="col-12 text-center mt-5">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 40px;">General Seat</p>--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pb-3"style="font-size: 20px;">270 persons</p>--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright" style="font-size: 20px;">Benefit</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row blue">--}}
+{{--            <div class="col-4 text-center custom-border-right2">--}}
+{{--                <img src="{{ asset('images/finfolk/mobile-finfolk-02.png') }}" alt="digital handout" width="50px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:5px;">Digital Handout</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-4 text-center custom-border-right2">--}}
+{{--                <img src="{{ asset('images/finfolk/finfolk-planner-blue.png') }}" alt="finfolk 2020 planner" width="40px">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:11px;">Finfolk 2020<br/>Planner</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-4 pt-2 text-center">--}}
+{{--                <img src="{{ asset('images/finfolk/mobile-finfolk-13.png') }}" alt="premium audio pack" width="50px"  style="margin-top: 9px;">--}}
+{{--                <p class="font-custom-titillium-semi-bold-upright pt-2 font-size-benefit-mobile" style="margin-top:12px;">Premium Audio<br/>Pack</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row mt-3">--}}
+{{--            <div class="col-12 text-center">--}}
+{{--                <div class="img-early-bird-responsive" style="background-image: url({{ asset('images/finfolk/finfolk-website-14.png') }});--}}
+{{--					background-repeat: no-repeat;--}}
+{{--					background-position: center;--}}
+{{--					background-size: contain;">--}}
+{{--                    <div class="box h-100 d-flex justify-content-center flex-column">--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 20px;">Rp 1.750.000,-</span>--}}
+{{--                        <span class="font-custom-titillium-semi-bold-upright text-white" style="font-size: 14px;">Early Bird Before 23rd March : Rp 1.400.000,-</span>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-12 text-center blue mt-5">--}}
+{{--                <p class="font-custom-titillium-regular-upright" style="font-size: 20px;">Book by Whats app : <b>0877 1091 9015</b></p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 
 <section class="py-5 d-none d-md-block" style="background-image: url({{ asset('images/finfolk/finfolk-website-04.jpg') }});
         background-repeat: no-repeat;
@@ -661,7 +709,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 300px;">
+        height: 400px;">
     <div class="container-fluid">
         <div class="row mt-5">
             <div class="col-12 text-center">
@@ -718,8 +766,8 @@
         /*Set Endtime here*/
         /*Endtime must be > current time*/
         endtimeYear: 2020,
-        endtimeMonth: 4,
-        endtimeDate: 25,
+        endtimeMonth: 7,
+        endtimeDate: 18,
         endtimeHours: 0,
         endtimeMinutes: 0,
         endtimeSeconds: 0,
