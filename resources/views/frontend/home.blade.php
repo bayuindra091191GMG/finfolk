@@ -159,7 +159,7 @@
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;
-                    height: 4000px;">
+                    height: 4800px;">
                 </div>
             </div>
         </div>
@@ -189,7 +189,7 @@
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: cover;
-                    height: 4200px;">
+                    height: 6000px;">
                 </div>
             </div>
         </div>
