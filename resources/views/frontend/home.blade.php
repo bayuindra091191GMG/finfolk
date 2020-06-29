@@ -347,7 +347,7 @@
                     <div class="col-lg-8">
                         <br/>
                         <span>: Danny Sutradewa</span><br/>
-                        <span>: David Tjokro</span><br/>
+                        <span>: David Tjokrorahardjo</span><br/>
                         <span>: Dennis Hadi</span>
                     </div>
                 </div>
@@ -366,7 +366,7 @@
                     <div class="col-lg-8">
                         <br/>
                         <span>: Danny Sutradewa</span><br/>
-                        <span>: David Tjokro</span><br/>
+                        <span>: David Tjokrorahardjo</span><br/>
                         <span>: Dennis Hadi</span><br/>
                         <span>: Pamela Wirjadinata & Monica Tan</span>
                     </div>
@@ -414,7 +414,7 @@
             <div class="col-8">
                 <br/>
                 <span>: Danny Sutradewa</span><br/>
-                <span>: David Tjokro</span><br/>
+                <span>: David Tjokrorahardjo</span><br/>
                 <span>: Dennis Hadi</span>
             </div>
         </div>
@@ -429,7 +429,7 @@
             <div class="col-8">
                 <br/>
                 <span>: Danny Sutradewa</span><br/>
-                <span>: David Tjokro</span><br/>
+                <span>: David Tjokrorahardjo</span><br/>
                 <span>: Dennis Hadi</span><br/>
                 <span>: Pamela Wirjadinata & Monica Tan</span>
                 </div>
