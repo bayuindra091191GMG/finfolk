@@ -365,9 +365,9 @@
                     </div>
                     <div class="col-lg-8">
                         <br/>
-                        <span>: Danny Sutradewa</span><br/>
-                        <span>: David Tjokrorahardjo</span><br/>
-                        <span>: Dennis Hadi</span><br/>
+                        <span>: Bong Chandra</span><br/>
+                        <span>: Andika Sutoro Putra</span><br/>
+                        <span>: Uma Hapsari</span><br/>
                         <span>: Pamela Wirjadinata & Monica Tan</span>
                     </div>
                 </div>
@@ -428,9 +428,9 @@
             </div>
             <div class="col-8">
                 <br/>
-                <span>: Danny Sutradewa</span><br/>
-                <span>: David Tjokrorahardjo</span><br/>
-                <span>: Dennis Hadi</span><br/>
+                <span>: Bong Chandra</span><br/>
+                <span>: Andika Sutoro Putra</span><br/>
+                <span>: Uma Hapsari</span><br/>
                 <span>: Pamela Wirjadinata & Monica Tan</span>
                 </div>
         </div>
