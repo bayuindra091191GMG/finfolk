@@ -250,7 +250,7 @@
                 {{--					background-size: cover;">--}}
                 {{--                </div>--}}
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/eRvqVuMdf_0')}}" frameborder="0" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="{{url('https://www.youtube.com/embed/HndfCC9zOUc')}}" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
